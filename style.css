@@ -1,0 +1,42 @@
+
+
+#left{
+    background-color:yellow;
+    height:100vh;
+    display:inline-block;
+    margin:0;
+}
+
+#right{
+    display:inline-block;
+    height:100vh;
+    margin:0;
+    padding:0;
+    overflow-y:scroll;
+}
+
+#right::-webkit-scrollbar {
+    width: 1em;
+}
+
+#right::-webkit-scrollbar-track-piece {
+    background-color:transparent;
+}
+
+#right::-webkit-scrollbar-thumb {
+    background-color: #bdc3c7;
+    outline: 1px solid slategrey;
+}
+
+.tile{  text-decoration:none;  color:black;  }
+.tile:hover{color:white;}
+#concert, #film{  height: 70vh;  width:100%;  }
+#concert{background-color:deepskyblue;}
+#film{background-color:lightcoral;}
+
+@media only screen and (min-width: 800px) {  body {  overflow:hidden;  margin:0;  }  }
+@media only screen and (max-width: 800px) {
+    #left{ height:90vh; }
+    #right { height:100vh; overflow:hidden; }
+    #right #concert,#right #film{height:50vh;}
+}
