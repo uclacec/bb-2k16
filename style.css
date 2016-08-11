@@ -30,13 +30,15 @@
 
 .tile{  text-decoration:none;  color:black;  }
 .tile:hover{color:white;}
-#concert, #film{  height: 70vh;  width:100%;  }
+#concert, #film, #festival, #faq{  height: 70vh;  width:100%;  }
 #concert{background-color:deepskyblue;}
 #film{background-color:lightcoral;}
+#festival{background-color:#2ecc71;}
+#faq{background-color:#9b59b6;}
 
 @media only screen and (min-width: 800px) {  body {  overflow:hidden;  margin:0;  }  }
 @media only screen and (max-width: 800px) {
     #left{ height:90vh; }
     #right { height:100vh; overflow:hidden; }
-    #right #concert,#right #film{height:50vh;}
+    #right #concert,#right #film{height:20vh;}
 }
