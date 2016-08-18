@@ -28,19 +28,21 @@
     outline: 1px solid slategrey;
 }
 
-.tile{  text-decoration:none;  color:black;  }
+.tile{  text-decoration:none;  color:black; }
 .tile:hover{color:darkblue;}
 #concert, #film, #festival, #faq{
     height: 70vh;
     width:100%;
     text-align:center;
     text-decoration:none;
+    color:darkblue;
+    border:solid darkblue 3px;
+    margin-top:-2px;
 }
 .title{
     padding-top:20%;
     font-size:3em;
     font-family:'BeonMedium', Helvetica, sans-serif;
-    color:darkblue;
 }
 #concert{background-color:deepskyblue;}
 #film{background-color:lightcoral;}
