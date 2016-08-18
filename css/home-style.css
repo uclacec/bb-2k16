@@ -1,4 +1,4 @@
-
+a, a:hover{text-decoration:none;}
 
 #left{
     background-color:yellow;
@@ -44,9 +44,17 @@
     font-size:3em;
     font-family:'BeonMedium', Helvetica, sans-serif;
 }
+.subtitle{
+    text-decoration:none;
+    font-size:1em;
+    font-family:'BeonMedium', Helvetica, sans-serif;
+    padding-top:20px;
+}
+.row{margin:0;}
+a #festival .subtitle:hover{ text-decoration:none !important; }
 #concert{background-color:deepskyblue;}
 #film{background-color:lightcoral;}
-#festival{background-color:#2ecc71;}
+#festival{background-color:#e67e22;}
 #faq{background-color:#9b59b6;}
 
 @media only screen and (min-width: 800px) {  body {  overflow:hidden;  margin:0;  }  }
