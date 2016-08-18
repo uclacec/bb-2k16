@@ -29,8 +29,19 @@
 }
 
 .tile{  text-decoration:none;  color:black;  }
-.tile:hover{color:white;}
-#concert, #film, #festival, #faq{  height: 70vh;  width:100%;  }
+.tile:hover{color:darkblue;}
+#concert, #film, #festival, #faq{
+    height: 70vh;
+    width:100%;
+    text-align:center;
+    text-decoration:none;
+}
+.title{
+    padding-top:20%;
+    font-size:3em;
+    font-family:'BeonMedium', Helvetica, sans-serif;
+    color:darkblue;
+}
 #concert{background-color:deepskyblue;}
 #film{background-color:lightcoral;}
 #festival{background-color:#2ecc71;}
