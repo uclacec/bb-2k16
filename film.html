@@ -12,31 +12,28 @@
     <!--Lucas-->
 
     <div class="frame full-border header">
-        <img src="assets/Royce.png" id="royce"/>
+        <img src="assets/white_royce.png" id="royce"/>
     </div>
 
     <div class="frame min-border title">
         <div class="title-box invert">
-            <p>BRUIN BASH</p>
+            <p class="vert-center">BRUIN BASH</p>
         </div>
         <div class="title-box regular">
-            <p>FILM</p>
+            <p class="vert-center">FILM</p>
         </div>
-        <div class="clear"></div>
+        <div id="spacer"> </div>
 
         <!-- BRUIN BASH LOGO GOES HERE -->
 
         <div class="title-summary">
-            <h4 id="summary-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+            <h4 id="summary-text">Catch Hollywood’s biggest blockbuster release, without needing to empty out your wallet. We’ve got movie night covered for you in case the concert scene isn’t for you. Popcorn included.
+            </h4>
             <h4>Presented to you by <span class="underline">CEC + CAC</span></h4>
         </div>
 
     </div>
+
     <div class="frame min-border nav">
         <div id="nav-title">
             <span class="fa-stack fa-lg">
@@ -45,44 +42,24 @@
             </span>
             <span>Information</span>
         </div>
-        <div class="nav-clickable" id="tix" onclick="toggleNav()">
-            <p class="nav-clickable-title">Tickets</p>
+        <div class="nav-clickable" id="tix" onclick="tixCurr()">
+            <p class="vert-center">Tickets</p>
         </div>
-        <div class="nav-clickable current" id="movie" onclick="toggleNav()">
-            <p class="nav-clickable-title">Movie</p>
-        </div>
-    </div>
-    <div class="frame min-border info">
-        <div class="info-box-left">
-            <div class="blue-fill"></div>
-            <div class="info-box-left-summary">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
-        </div>
-        <div class="info-box-right">
-            <div class="yellow-fill"></div>
-            <div class="clear"></div>
-            <div class="info-box-right-summary">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </div>
+        <div class="nav-clickable current" id="movie" onclick="movieCurr()">
+            <p class="vert-center">Movie</p>
         </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script>
-        function toggleNav(){
-            $('nav-clickable').toggleClass('current');
+        function tixCurr(){
+            $('#tix').addClass('current');
+            $('#movie').removeClass('current');
+        }
+        function movieCurr(){
+            $('#movie').addClass('current');
+            $('#tix').removeClass('current');
         }
     </script>
 

@@ -1,4 +1,4 @@
-html, body { height: 100%; width: 100%; margin: 0; }
+html, body { height: 100%; width: 100%; margin: 0; font-family: "BeonMedium"}
 
 body {
     background-color: #F84649;
@@ -22,11 +22,10 @@ body {
 .header {
     height: 9em;
     margin-top: 3em;
-
 }
 
 .title {
-    height: 20em;
+    height: 25em;
 }
 
 .nav {
@@ -34,7 +33,7 @@ body {
 }
 
 .info {
-    height: 45em;
+    height: 60em;
     margin-bottom: 3em;
 }
 
@@ -58,10 +57,6 @@ body {
     color: #263c97;
     border-right: 0.2em solid #263c97;
     border-bottom: 0.2em solid #263c97;
-}
-
-.clear {
-    clear: both;
 }
 
 .title-summary {
@@ -95,7 +90,7 @@ body {
 }
 
 .nav-clickable {
-    cursor:pointer;
+    cursor: pointer;
     float: right;
     text-align: center;
     width: 9em;
@@ -106,54 +101,11 @@ body {
     color: #263c97;
 }
 
-.nav-clickable-title {
-    top: 1.3em;
-    position: relative;
-}
-
 .current {
     background-color: white;
 }
 
-.info-box-left {
-    width: 25em;
-    height: 40em;
-    border: 0.2em solid #263c97;
-    position: relative;
-    left: 3em;
-    top: 2.25em;
-    float: left;
-}
-
-.blue-fill {
-    height: 19.8em;
-    background-color: deepskyblue;
-    border-bottom: 0.2em solid #263c97;
-}
-
-.info-box-left-summary {
-    height: 20em;
-    background-color: white
-}
-
-.info-box-right {
-    width: 33em;
-    height: 50em;
-    border: 0.2em solid #263c97;
-    position: relative;
-    top: 2.25em;
-    left: 32em;
-}
-
-.yellow-fill {
-    height: 30em;
-    background-color: #ffd400;
-    border-bottom: 0.2em solid #263c97;
-}
-
-.info-box-right-summary {
-    height: 25em;
-    background-color: white;
-    position: relative;
-    top: -15.2em;
+#spacer {
+    height: 200px;
+    width: 100vw;
 }
