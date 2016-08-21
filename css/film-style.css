@@ -1,4 +1,4 @@
-html, body { height: 100%; width: 100%; margin: 0; font-family: "BeonMedium"}
+html, body { height: 100%; width: 100%; margin: 0; font-family: "din"}
 
 body {
     background-color: #F84649;
@@ -28,6 +28,17 @@ body {
     height: 25em;
 }
 
+.subtitle{
+    height: 3em;
+    background-color: white;
+    width: 85%;
+    margin-left: 7.5%;
+    font-size: 2em;
+    margin-top: 2em;
+    text-align: center;
+    padding-top: 1em;
+}
+
 .nav {
     height: 6em;
 }
@@ -38,8 +49,9 @@ body {
 }
 
 .title-box {
+    padding-top: 0.75em;
+    font-size: 1.5em;
     width: 25%;
-    height: 6vh;
     float: left;
     text-align: center;
 }
@@ -86,33 +98,21 @@ body {
     top: 1.5em;
     left: 1em;
     width: 12em;
+    font-size: 1.25em
 }
 
-.nav-clickable {
-    cursor: pointer;
-    float: right;
-    text-align: center;
-    width: 9em;
-    height: 6em;
-    border-left: 0.2em solid #263c97;
-    position: relative;
-    top: -2.7em;
-    color: #263c97;
-}
-
-.current {
-    background-color: white;
-}
 
 .details{
     position: relative;
-    width: 30%;
-    height: 30%;
-    margin-left: 60%;
-    top: 60%;
+    width: 85%;
+    margin-left: 7.5%;
+    font-size: 15px;
+    padding-top: 15px;
+    background-color: white;
 }
 
-#spacer {
-    height: 200px;
-    width: 100vw;
+#logo{
+    margin-top: 3vh;
+    margin-left: 25%;
+    width: 50%;
 }

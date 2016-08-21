@@ -18,14 +18,14 @@
 
     <div class="frame min-border title">
         <div class="title-box invert">
-            <p class="vert-center">BRUIN BASH</p>
+            <p class="title-pad">BRUIN BASH</p>
         </div>
         <div class="title-box regular">
-            <p class="vert-center">FILM</p>
+            <p class="title-pad">MOVIE</p>
         </div>
         <div id="spacer"> </div>
 
-        <!-- BRUIN BASH LOGO GOES HERE -->
+        <img src="assets/film_logo.png" id="logo">
 
         <div class="title-summary">
             <h4 id="summary-text">Catch Hollywood’s biggest blockbuster release, without needing to empty out your wallet. We’ve got movie night covered for you in case the concert scene isn’t for you. Popcorn included.
@@ -43,40 +43,31 @@
             </span>
             <span>Information</span>
         </div>
-        <div class="nav-clickable" id="tix" onclick="tixCurr()">
-            <p class="vert-center">Tickets</p>
-        </div>
-        <div class="nav-clickable current" id="movie" onclick="movieCurr()">
-            <p class="vert-center">Movie</p>
-        </div>
     </div>
 
     <div class="frame min-border info">
         <div class="poster">
-
+            <img src="assets/movie_pic.png" class="details">
+            <div class="frame full-border subtitle">BARNIE AND FRIENDS</div>
+            <div class="frame min-border details">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in ligula rhoncus velit blandit lobortis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec eget enim ultricies, tempus massa sit amet, gravida nisl. Vivamus leo odio, consequat a quam id, mollis luctus ex. Integer scelerisque aliquet sagittis. Maecenas eu cursus velit. Praesent aliquam nulla ex, a laoreet augue molestie fringilla. Aenean consectetur vitae nisi sed porta.
+            </div>
         </div>
-        <div class="frame full-border details">
-            <ul>
-                <li> <b>WHAT:</b> Free Film Showing of _____</li>
-                <li> <b>WHERE:</b> Ackerman Grand Ballroom</li>
-                <li> <b>WHEN:</b> 8pm, September 19th, 2016</li>
-                <li> <b>HOW:</b>Lineup begins as early as you want outside of Ackerman (near the entrance to Wetzel’s Pretzels) and wraps around in between Ackerman and Kerckhoff. Seats are given on a first-come-first-served basis.
-                </li>
-            </ul>
+        <div id="whowhat">
+            <div class="frame full-border subtitle"> MOVIE INFO</div>
+            <div class="frame full-border details">
+                <ul>
+                    <li> <b>WHAT:</b> Free Film Showing of _____</li>
+                    <li> <b>WHERE:</b> Ackerman Grand Ballroom</li>
+                    <li> <b>WHEN:</b> 8pm, September 19th, 2016</li>
+                    <li> <b>HOW:</b>Lineup begins as early as you want outside of Ackerman (near the entrance to Wetzel’s Pretzels) and wraps around in between Ackerman and Kerckhoff. Seats are given on a first-come-first-served basis.
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script>
-        function tixCurr(){
-            $('#tix').addClass('current');
-            $('#movie').removeClass('current');
-        }
-        function movieCurr(){
-            $('#movie').addClass('current');
-            $('#tix').removeClass('current');
-        }
-    </script>
 
     <!--Google Analytics-->
     <script>
