@@ -5,7 +5,7 @@ body {
 }
 
 .frame {
-    width: 70em;
+    width: 75vw;
     margin: 0 auto;
 }
 
@@ -38,15 +38,14 @@ body {
 }
 
 .title-box {
-    width: 14em;
-    height: 3em;
+    width: 25%;
+    height: 6vh;
     float: left;
     text-align: center;
-    vertical-align: middle;
 }
 
 .invert {
-    margin-left: 20.85em;
+    margin-left: 25%;
     background-color: #263c97;
     color: white;
     border-left: .2em solid #263c97;
@@ -61,7 +60,7 @@ body {
 
 .title-summary {
     margin: auto;
-    width: 36em;
+    width: 75%;
     height: 9em;
     top: 2em;
     text-align: center;
@@ -103,6 +102,14 @@ body {
 
 .current {
     background-color: white;
+}
+
+.details{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin-left: 60%;
+    top: 60%;
 }
 
 #spacer {
