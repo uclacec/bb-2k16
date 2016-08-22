@@ -21,7 +21,7 @@ $(document).ready(function(){
 		}
 	else if (lights == true) {
 		lights = false;
-		$('#left').css({ "background-color" : "yellow"});
+		$('#left').css({ "background-color" : "#fed202"});
 		$('#concert').css({ "background-color" : "deepskyblue"});
 		$('#film').css({ "background-color" : "lightcoral"});
 		$('#festival').css({ "background-color" : "#2ecc71"});

@@ -9,3 +9,12 @@ font-style: normal;}
     font-family: 'din';
     src: url('din-regular.ttf');
 }
+
+@font-face {
+    font-family: 'dinregular';
+    src: url('ufonts.com_din-regular-webfont.woff2') format('woff2'),
+    url('ufonts.com_din-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
