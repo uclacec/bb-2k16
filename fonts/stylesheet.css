@@ -5,3 +5,7 @@ src: local('☺'), url('beon-webfont.eot?#iefix') format('embedded-opentype'),ur
 font-weight: normal;
 font-style: normal;}
 
+@font-face{
+    font-family: 'din';
+    src: url('din-regular.ttf');
+}

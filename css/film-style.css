@@ -1,11 +1,12 @@
-html, body { height: 100%; width: 100%; margin: 0; }
+html, body { height: 100%; width: 100%; margin: 0; font-family: "din"}
 
 body {
-    background-color: #F84649;
+    background-color: #F7494A;
 }
 
+/*Reusable css classes*/
 .frame {
-    width: 70em;
+    width: 75vw;
     margin: 0 auto;
 }
 
@@ -19,14 +20,24 @@ body {
     border-bottom: 0.2em solid #263c97;
 }
 
+/*css for individual elements*/
 .header {
     height: 9em;
     margin-top: 3em;
-
 }
 
 .title {
-    height: 20em;
+    height: 30em;
+}
+
+.subtitle{
+    height: 3em;
+    background-color: white;
+    width: 85%;
+    margin-left: 7.5%;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1em;
 }
 
 .nav {
@@ -34,20 +45,20 @@ body {
 }
 
 .info {
-    height: 45em;
     margin-bottom: 3em;
+    color:#263c97;
 }
 
 .title-box {
-    width: 14em;
-    height: 3em;
+    padding-top: 0.75em;
+    font-size: 1.5em;
+    width: 25%;
     float: left;
     text-align: center;
-    vertical-align: middle;
 }
 
 .invert {
-    margin-left: 20.85em;
+    margin-left: 25%;
     background-color: #263c97;
     color: white;
     border-left: .2em solid #263c97;
@@ -60,13 +71,9 @@ body {
     border-bottom: 0.2em solid #263c97;
 }
 
-.clear {
-    clear: both;
-}
-
 .title-summary {
     margin: auto;
-    width: 36em;
+    width: 75%;
     height: 9em;
     top: 2em;
     text-align: center;
@@ -76,6 +83,30 @@ body {
 
 .underline {
     border-bottom: 0.2em solid #263c97;
+}
+
+.details{
+    position: relative;
+    width: 85%;
+    margin-left: 7.5%;
+    font-size: 15px;
+    padding-top: 15px;
+    background-color: white;
+}
+
+#logo{
+    margin-top: 3vh;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#whowhat{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#poster{
+    padding-top: 3em;
 }
 
 #royce {
@@ -92,68 +123,5 @@ body {
     top: 1.5em;
     left: 1em;
     width: 12em;
-}
-
-.nav-clickable {
-    cursor:pointer;
-    float: right;
-    text-align: center;
-    width: 9em;
-    height: 6em;
-    border-left: 0.2em solid #263c97;
-    position: relative;
-    top: -2.7em;
-    color: #263c97;
-}
-
-.nav-clickable-title {
-    top: 1.3em;
-    position: relative;
-}
-
-.current {
-    background-color: white;
-}
-
-.info-box-left {
-    width: 25em;
-    height: 40em;
-    border: 0.2em solid #263c97;
-    position: relative;
-    left: 3em;
-    top: 2.25em;
-    float: left;
-}
-
-.blue-fill {
-    height: 19.8em;
-    background-color: deepskyblue;
-    border-bottom: 0.2em solid #263c97;
-}
-
-.info-box-left-summary {
-    height: 20em;
-    background-color: white
-}
-
-.info-box-right {
-    width: 33em;
-    height: 50em;
-    border: 0.2em solid #263c97;
-    position: relative;
-    top: 2.25em;
-    left: 32em;
-}
-
-.yellow-fill {
-    height: 30em;
-    background-color: #ffd400;
-    border-bottom: 0.2em solid #263c97;
-}
-
-.info-box-right-summary {
-    height: 25em;
-    background-color: white;
-    position: relative;
-    top: -15.2em;
+    font-size: 1.25em
 }
