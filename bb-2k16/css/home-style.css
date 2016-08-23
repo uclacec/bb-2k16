@@ -1,0 +1,60 @@
+@font-face {
+    font-family:'din';
+    src:url("../fonts/din-regular.ttf");
+}
+
+#left{
+    background-color:yellow;
+    height:100vh;
+    display:inline-block;
+    margin:0;
+}
+
+#right{
+    display:inline-block;
+    height:100vh;
+    margin:0;
+    padding:0;
+    overflow-y:scroll;
+}
+
+#right::-webkit-scrollbar {
+    width: 1em;
+}
+
+#right::-webkit-scrollbar-track-piece {
+    background-color:transparent;
+}
+
+#right::-webkit-scrollbar-thumb {
+    background-color: #bdc3c7;
+    outline: 1px solid slategrey;
+}
+
+.tile{  text-decoration:none;  color:black; }
+.tile:hover{color:darkblue;}
+#concert, #film, #festival, #faq{
+    height: 70vh;
+    width:100%;
+    text-align:center;
+    text-decoration:none;
+    color:darkblue;
+    border:solid darkblue 3px;
+    margin-top:-3px;
+}
+.title{
+    padding-top:20%;
+    font-size:3em;
+    font-family:'BeonMedium', Helvetica, sans-serif;
+}
+#concert{background-color:deepskyblue;}
+#film{background-color:lightcoral;}
+#festival{background-color:#2ecc71;}
+#faq{background-color:#9b59b6;}
+
+@media only screen and (min-width: 800px) {  body {  overflow:hidden;  margin:0;  }  }
+@media only screen and (max-width: 800px) {
+    #left{ height:90vh; }
+    #right { height:100vh; overflow:hidden; }
+    #right #concert,#right #film{height:20vh;}
+}
