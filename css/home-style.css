@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family:'din';
+    src:url("../fonts/din-regular.ttf");
+}
 
 #left{
     background-color:yellow;
