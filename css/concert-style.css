@@ -1,0 +1,158 @@
+html, body { height: 100%; width: 100%; margin: 0; }
+
+body {
+	background-color: deepskyblue;
+}
+
+.frame {
+	width: 70em;
+	margin: 0 auto;
+}
+
+.full-border {
+	border: 0.2em solid #263c97;
+}
+
+.min-border {
+	border-left: 0.2em solid #263c97;
+	border-right: 0.2em solid #263c97;
+	border-bottom: 0.2em solid #263c97;
+}
+
+.header {
+	height: 9em;
+	margin-top: 3em;
+
+}
+
+.title {
+	height: 30em;
+}
+
+.nav {
+	height: 6em;
+}
+
+.info {
+	height: 45em;
+	margin-bottom: 3em;
+}
+
+.title-box {
+	width: 14em;
+	height: 3em;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.invert {
+	margin-left: 20.85em;
+	background-color: #263c97;
+	color: white;
+	border-left: .2em solid #263c97;
+	border-bottom: 0.2em solid #263c97;
+}
+
+.regular {
+	color: #263c97;
+	border-right: 0.2em solid #263c97;
+	border-bottom: 0.2em solid #263c97;
+}
+
+.clear {
+	clear: both;
+}
+
+.title-summary {
+	margin: auto;
+	width: 36em;
+	height: 9em;
+	text-align: center;
+	color: #263c97;
+	position: relative;
+	top: 14em;
+}
+
+.underline {
+	border-bottom: 0.2em solid #263c97;
+}
+
+#royce {
+	display: block;
+	margin: auto;
+	width: 25em;
+	position: relative;
+	top: -1.75em;
+}
+
+#nav-title {
+	color: #263c97;
+	position: relative;
+	top: 1.5em;
+	left: 1em;
+	width: 12em;
+}
+
+.nav-clickable {
+	float: right;
+	text-align: center;
+	width: 9em;
+	height: 6em;
+	border-left: 0.2em solid #263c97;
+	position: relative;
+	top: -2.7em;
+	color: #263c97;
+}
+
+.nav-clickable-title {
+	top: 1.3em;
+	position: relative;
+}
+
+.current {
+	background-color: white;
+}
+
+.info-box-left {
+	width: 25em;
+	height: 40em;
+	border: 0.2em solid #263c97;
+	position: relative;
+	left: 3em;
+	top: 2.25em;
+	float: left;
+}
+
+.red-fill {
+	height: 19.8em;
+	background-color: #f84649;
+	border-bottom: 0.2em solid #263c97;
+}
+
+.info-box-left-summary {
+	height: 20em;
+	background-color: white
+}
+
+.info-box-right {
+	width: 33em;
+	height: 40em;
+	border: 0.2em solid #263c97;
+	position: relative;
+	top: 2.25em;
+	left: 32em;
+}
+
+.yellow-fill {
+	height: 24.8em;
+	background-color: #ffd400;
+	border-bottom: 0.2em solid #263c97;
+}
+
+.info-box-right-summary {
+	height: 15em;
+	background-color: white;
+	position: relative;
+	top: -15.2em;
+}
