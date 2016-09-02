@@ -125,3 +125,8 @@ body {
     width: 12em;
     font-size: 1.25em
 }
+@media only screen and (max-width: 680px) {
+    .title-box{
+        font-size: 0.75em;
+    }
+}
