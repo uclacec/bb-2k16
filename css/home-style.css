@@ -6,6 +6,7 @@ a, a:hover{text-decoration:none;}
     display:inline-block;
     margin:0;
     color:darkblue;
+    cursor:url(../assets/fire_emoji.png),url(../assets/fire_emoji.gif), pointer !important;
 }
 #left .title{ padding:0 !important; text-align:center; }
 #left .subtitle{text-align:center;font-family: 'dinregular', Helvetica,sans-serif;}
