@@ -4,7 +4,7 @@
 }
 
 html, body{
-    background-color: #2ecc71;
+    background-color: orange;
     height: 100%;
 }
 
@@ -24,19 +24,20 @@ div.container{
 
 #box1 {
     margin-top: 5%;
-    height: 12%;
+    height: 11%;
 }
 #box2{
-    height: 30%;
+    height: 28%;
 }
 #box3{
-    height: 5%;
+    height: 4%;
     color: #263c97;
-    padding-left: 1%;
+    font-size: 12px;
 
 }
 #box4{
-    height: 45%;
+    height: 63%;
+    margin-bottom: 1%;
 }
 
 .royce_image{
@@ -89,7 +90,7 @@ div.container{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    color: white;
+    color: black;
 }
 
 .text{
@@ -101,15 +102,36 @@ div.festival{
     width: 86%;
     margin-left: 7%;
     margin-right: 7%;
-    margin-top: 2%;
+    margin-top: 1.5%;
     margin-bottom: 1.5%;
     border-width: 2px;
     border-color: #263c97;
     border-style: solid;
     background-color: white;
     color: #263c97;
-    height: 55%;
+    height: 38%;
 }
+
+.default_giveaway{
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    border-width: 2px;
+    border-color: #263c97;
+    border-style: solid;
+    background-color: white;
+    color: #263c97;
+    height: 30%;
+    font-family: din;
+    font-size: 21px;
+    padding-top: 2.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
 
 .fest_head{
     border-width: 2px;
@@ -124,6 +146,9 @@ div.festival{
 .fest_body{
     font-size: 12px;
 }
+
+
+
 .lineup_head{
     border-width: 2px;
     border-color: transparent;
@@ -147,5 +172,60 @@ div.lineup{
     border-style: solid;
     background-color: white;
     color: #263c97;
-    height: 28%;
+    height: 18%;
+}
+
+.box3_festival{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    padding-top: 0.25%;
+    height: 100%;
+
+
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+    border-right-color: transparent !important;
+
+
+}
+.box3_giveaway{
+    border-width: 2px;
+    border-color: #263c97;
+    border-style: solid;
+    padding-top: 0.25%;
+    height: 100%;
+    color: black;
+    background-color: orange;
+    border-top-color: transparent !important;
+    border-bottom-color: transparent !important;
+    border-right-color: transparent !important;
+
+}
+
+.active{
+    background-color: white;
+    color: #263c97;
+}
+
+.hide{
+    display: none;
+}
+
+div.give{
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    border-width: 2px;
+    border-color: #263c97;
+    border-style: solid;
+    background-color: white;
+    color: #263c97;
+    height: 90%;
+}
+
+.small{
+    height: 55% !important;
 }
