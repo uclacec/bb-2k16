@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bruin Bash 2016 | Festival</title>
+    <title>Bruin Bash 2016| Festival</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/festival.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/festival.js"></script>
 </head>
 <body>
 
@@ -17,15 +19,25 @@
         <div class="col-md-offset-4 col-md-2" id="bash">BRUIN BASH</div>
         <div class="col-md-2" id="festival">FESTIVAL</div>
     </div>
-    <img class="festival_img" src="assets/festival%20bruin%20bash.png">
+    <img class="festival_img" src="assets/festival_bruin_bash.png">
     <p class="text" id="box2text">Explore our festival for giveaways, activities, and more. The best part? All of it is absolutely free! Stop by between 12pm to 4pm to see how much free stuff you can pilfer, and then gather around for lineup to start getting pumped up for the night of your life.
     <br><br>Presented to you by CEC + CAC.</p>
 </div>
 <div class="border container" id="box3">
-    <span class="glyphicon glyphicon-map-marker" style="color: #263c97; vertical-align: middle; font-size: 1.3em;" aria-hidden="true"> Information</span>
+    <div class="row" style="height: 100%; width: 100%; margin-left: 0">
+    <span class="glyphicon glyphicon-map-marker col-md-2" style="color: #263c97; vertical-align: middle; font-size: 1.3em;" aria-hidden="true"> Information</span>
+    <div class="active col-md-offset-8 col-md-1 box3_festival">Festival</div>
+    <div class="col-md-1 box3_giveaway">Giveaway</div>
+    </div>
 
 </div>
 <div class="border container" id="box4">
+    <div class="default_giveaway">
+        <span  style="font-size: 32px">WRISTBAND GIVEWAY</span><br>
+        <p style="height: 45px"><span style="float: right">POWERED BY <img src="assets/playful.png" style="width: 150px; height:45px"></span><br>
+        </p>
+        <p>Click this banner to find out how you can win concert wristbands.</p>
+    </div>
     <div class="festival text">
         <div class="fest_head" style="text-align: left">
             FESTIVAL INFORMATION
@@ -34,7 +46,7 @@
             From 12pm - 4pm on the Intramural Field, enjoy free activities, giveaways, and more, including the following:<br><br>
 
 
-            BOOTH DESCRIPTION WILL GO HERE<br><br>
+            MORE INFORMATION SOON<br><br>
 
 
 
@@ -53,7 +65,26 @@
             After 9pm, all wristbands will be invalid and you will NOT be allowed into the venue
         </div>
     </div>
+    <div class="give text hide">
+        <div class="fest_head" style="text-align: left; font-size: 24px">
+            Wristband Giveaway
+        </div>
+        <div class="fest_body" style="text-align: left; font-size: 18px; padding-left: 1%">
+            <p style="height: 45px; font-size: 20px"><span style="float: right">POWERED BY <img src="assets/playful.png" style="width: 150px; height:45px"></span><br>
+            </p>
+            In case you didn’t get a concert ticket, don’t worry, there’s still a chance!<br><br>
+
+            Participate in the giveaway between 9/14 - 9/18 for prizes!<br><p style="height: .2em;"></p>
+            Hosted on the app PlayFull, you can compete to earn points by completing tasks such as:<br>
+            &nbsp;&nbsp;Liking CEC and CAC on Facebook<br>
+            &nbsp;&nbsp;Playing games and earning high scores<br>
+            &nbsp;&nbsp;And more!<br>
+            Prizes include floor wristbands to the concert, ___ and more!<br>
+            Download the app PlayFull in the Android and IOS App Store for the full instructions.
+        </div>
+    </div>
 </div>
+
 
 <!--Google Analytics-->
 <script>
