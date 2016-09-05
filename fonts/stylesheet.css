@@ -1,0 +1,20 @@
+@font-face {
+font-family: 'BeonMedium';
+src: url('beon-webfont.eot');
+src: local('☺'), url('beon-webfont.eot?#iefix') format('embedded-opentype'),url('beon-webfont.woff') format('woff'),url('beon-webfont.ttf') format('truetype'),url('beon-webfont.svg#BeonMedium') format('svg');
+font-weight: normal;
+font-style: normal;}
+
+@font-face{
+    font-family: 'din';
+    src: url('din-regular.ttf');
+}
+
+@font-face {
+    font-family: 'dinregular';
+    src: url('ufonts.com_din-regular-webfont.woff2') format('woff2'),
+    url('ufonts.com_din-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

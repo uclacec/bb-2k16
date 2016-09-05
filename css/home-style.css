@@ -1,0 +1,78 @@
+a, a:hover{text-decoration:none;}
+
+#left{
+    background-color:#fed202;
+    height:100vh;
+    display:inline-block;
+    margin:0;
+    color:darkblue;
+    cursor:url(../assets/fire_emoji.png),url(../assets/fire_emoji.gif), pointer !important;
+}
+#left .title{ padding:0 !important; text-align:center; }
+#left .subtitle{text-align:center;font-family: 'dinregular', Helvetica,sans-serif;}
+
+#right{
+    display:inline-block;
+    height:100vh;
+    margin:0;
+    padding:0;
+    overflow-y:scroll;
+}
+
+#right::-webkit-scrollbar {
+    width: 1em;
+}
+
+#right::-webkit-scrollbar-track-piece {
+    background-color:transparent;
+}
+
+#right::-webkit-scrollbar-thumb {
+    background-color: #bdc3c7;
+    outline: 1px solid slategrey;
+}
+
+.tile{  text-decoration:none;  color:black; }
+.tile:hover{color:darkblue;}
+#concert, #film, #festival, #faq{
+    height: 70vh;
+    width:100%;
+    text-align:center;
+    text-decoration:none;
+    color:darkblue;
+    border:solid darkblue 3px;
+    margin-top:-3px;
+}
+.title{
+    padding-top:20%;
+    padding-bottom:20%;
+    font-size:3em;
+    font-family:'BeonMedium', Helvetica, sans-serif;
+}
+.subtitle{
+    text-decoration:none;
+    font-size:1em;
+    font-family:'BeonMedium', Helvetica, sans-serif;
+    padding-top:20px;
+}
+.row{margin:0;}
+a #festival .subtitle:hover{ text-decoration:none !important; }
+#concert{background-color:deepskyblue;}
+#film{background-color:lightcoral;}
+#festival{background-color:#ffb444;}
+#faq{background-color:#9b59b6;}
+
+/*Social Media*/
+#cec, #cac{ position:absolute; z-index:30; }
+#cec{top:5vh; left:2vw;}
+#cac{top:5vh; left:54vw;}
+.icon{width:2em;}
+@media only screen and (max-width: 500px) {
+    #cac{left:64vw;}
+}
+/*End Social Media*/
+
+@media only screen and (min-width: 800px) {  body {  overflow:hidden;  margin:0;  }  }
+@media only screen and (max-width: 800px) {
+    #left{ height:105vh; overflow:visible; }
+}

@@ -1,0 +1,357 @@
+html, body { height: 100%; width: 100%; margin: 0; }
+
+@font-face {
+    font-family:'din';
+    src:url("../fonts/din-regular.ttf");
+}
+
+@font-face {
+    font-family:'beon';
+    src:url("../fonts/beon-webfont.ttf");
+}
+
+body {
+	background-color: #FFD000;
+	font-family: 'din';
+	color: #263c97;
+}
+
+.frame {
+	width: 70em;
+	margin: 0 auto;
+}
+
+.full-border {
+	border: 0.2em solid #263c97;
+}
+
+.min-border {
+	border-left: 0.2em solid #263c97;
+	border-right: 0.2em solid #263c97;
+	border-bottom: 0.2em solid #263c97;
+}
+
+.header {
+	height: 9em;
+
+}
+
+.title {
+	height: 25em;
+}
+
+.nav {
+	height: 3em;
+}
+
+.info {
+	height: 55em;
+	margin-bottom: 3em;
+}
+
+.title-box {
+	width: 14em;
+	height: 3em;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.title-box-text {
+	position: relative;
+	top: .7em;
+}
+
+.invert {
+	margin-left: 20.85em;
+	background-color: #263c97;
+	color: white;
+	border-left: .2em solid #263c97;
+	border-bottom: 0.2em solid #263c97;
+}
+
+.regular {
+	color: #263c97;
+	border-right: 0.2em solid #263c97;
+	border-bottom: 0.2em solid #263c97;
+}
+
+.clear {
+	clear: both;
+}
+
+.title-summary {
+	margin: auto;
+	width: 55em;
+	height: 9em;
+	text-align: center;
+	color: #263c97;
+	position: relative;
+	top: 2em;
+}
+
+.underline {
+	padding-bottom: .25em;
+	border-bottom: 0.2em solid #263c97;
+}
+
+#royce {
+	display: block;
+	margin: auto;
+	width: 25em;
+	position: relative;
+	top: -1.7em;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+	width: 30em;
+	position: relative;
+	top: 1.5em;
+}
+
+#nav-title {
+	color: #263c97;
+	position: relative;
+	top: .1em;
+	left: 1em;
+	width: 12em;
+}
+
+.nav-clickable {
+	float: right;
+	text-align: center;
+	width: 12em;
+	height: 2.85em;
+	border-left: 0.2em solid #263c97;
+	position: relative;
+	top: -2.65em;
+	color: #263c97;
+}
+
+.switch {
+	cursor: pointer;
+}
+
+
+
+.nav-clickable-title {
+	top: .75em;
+	position: relative;
+}
+
+.current {
+	background-color: white;
+}
+
+.info-box-left {
+	width: 25em;
+	height: 40em;
+	border: 0.2em solid #263c97;
+	position: relative;
+	left: 3em;
+	top: 2.25em;
+	float: left;
+}
+
+.red-fill {
+	height: 19.8em;
+	background-color: #f84649;
+	border-bottom: 0.2em solid #263c97;
+}
+
+.info-box-left-summary {
+	height: 20em;
+	background-color: white
+}
+
+.info-box-right {
+	width: 33em;
+	height: 40em;
+	border: 0.2em solid #263c97;
+	position: relative;
+	top: 2.25em;
+	left: 32em;
+}
+
+.yellow-fill {
+	height: 24.8em;
+	background-color: #ffd400;
+	border-bottom: 0.2em solid #263c97;
+}
+
+.info-box-right-summary {
+	height: 15em;
+	background-color: white;
+	position: relative;
+	top: -15.2em;
+}
+
+.wristTitle {
+	font-weight: bold;
+	position: relative;
+	left: .5em;
+}
+
+.wristContainer {
+	width: 60em;
+	margin: 0 auto;
+	border: 0.2em solid #263c97;
+	position: relative;
+}
+
+.w-upper {
+	top: 2em;
+}
+
+.w-lower {
+	top: 5em;
+}
+
+.wristDescription {
+	position: relative;
+	left: .5em;
+}
+
+.break {
+	border: 0;
+	background: #263c97;
+	height: .1em;
+	margin: 0;
+}
+
+.wristClick {
+	display: inline-block;
+	font-size: 5em;
+	margin-bottom: 0;
+	font-family: 'beon';
+	color: #263c97;
+}
+
+.wristClick:hover {
+	text-decoration: none;
+	color: #FC0000;
+}
+
+.wristClick2 {
+	display: inline-block;
+	color: #263c97
+}
+
+.wristClick2:hover {
+	text-decoration: none;
+	color: #FC0000;
+}
+
+.center {
+	text-align: center;
+	position: relative;
+}
+
+.headliner {
+	margin: 0 auto;
+	position: relative;
+	top: 2em;
+	width: 59em;
+	height: 23em;
+	border: 0.2em solid #263c97;
+	background-color: white;
+}
+
+.shrug {
+	margin: 0;
+	position: relative;
+	font-family: arial;
+	top: .2em;
+	left: .2em;
+	padding-bottom: .3em;
+	font-size: 1.7em;
+	cursor: pointer;
+}
+
+.headliner-description {
+	position: relative;
+	left: .5em;
+}
+
+.headlinerPic {
+	cursor: pointer;
+}
+
+.matoma {
+	margin: 0;
+	width: 40em;
+	height: 23em;
+	border: 0.2em solid #263c97;
+	position: relative;
+	left: 5.35em;
+	top: 3em;
+	background-color: white;
+}
+
+.matomaPic {
+	width: 39.7em;
+	cursor: pointer;
+}
+
+.matomaTitle {
+	margin: 0;
+	position: relative;
+	top: .4em;
+	left: .3em;
+	padding-bottom: .1em;
+	cursor: pointer;
+}
+
+.matomaSub {
+	margin: 0;
+	position: relative;
+	top: .4em;
+	left: .3em;
+}
+
+.matomaDescription {
+	position: relative;
+	top: 2.75em;
+	left: .4em;
+}
+
+.fourohfour {
+	margin: 0;
+	width: 18.5em;
+	height: 23em;
+	border: 0.2em solid #263c97;
+	position: relative;
+	top: -20em;
+	left: 46em;
+	background-color: white;
+}
+
+.fourohfourPic {
+	width: 18.2em;
+	height: 10.75em;
+	cursor: pointer;
+}
+
+.fourohfourTitle {
+	margin: 0;
+	position: relative;
+	top: .4em;
+	left: .2em;
+	padding-bottom: .1em;
+	cursor: pointer;
+}
+
+.fourohfourSub {
+	margin: 0;
+	position: relative;
+	top: .4em;
+	left: .2em;
+}
+
+.fourohfourDescription {
+	position: relative;
+	top: 2em;
+	left: .4em;
+}

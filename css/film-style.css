@@ -1,0 +1,132 @@
+html, body { height: 100%; width: 100%; margin: 0; font-family: "din"}
+
+body {
+    background-color: #F7494A;
+}
+
+/*Reusable css classes*/
+.frame {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.full-border {
+    border: 0.2em solid #263c97;
+}
+
+.min-border {
+    border-left: 0.2em solid #263c97;
+    border-right: 0.2em solid #263c97;
+    border-bottom: 0.2em solid #263c97;
+}
+
+/*css for individual elements*/
+.header {
+    height: 9em;
+    margin-top: 3em;
+}
+
+.title {
+    height: 30em;
+}
+
+.subtitle{
+    height: 3em;
+    background-color: white;
+    width: 85%;
+    margin-left: 7.5%;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.nav {
+    height: 6em;
+}
+
+.info {
+    margin-bottom: 3em;
+    color:#263c97;
+}
+
+.title-box {
+    padding-top: 0.75em;
+    font-size: 1.5em;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.invert {
+    margin-left: 25%;
+    background-color: #263c97;
+    color: white;
+    border-left: .2em solid #263c97;
+    border-bottom: 0.2em solid #263c97;
+}
+
+.regular {
+    color: #263c97;
+    border-right: 0.2em solid #263c97;
+    border-bottom: 0.2em solid #263c97;
+}
+
+.title-summary {
+    margin: auto;
+    width: 75%;
+    height: 9em;
+    top: 2em;
+    text-align: center;
+    color: #263c97;
+    position: relative;
+}
+
+.underline {
+    border-bottom: 0.2em solid #263c97;
+}
+
+.details{
+    position: relative;
+    width: 85%;
+    margin-left: 7.5%;
+    font-size: 15px;
+    padding-top: 15px;
+    background-color: white;
+}
+
+#logo{
+    margin-top: 3vh;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#whowhat{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#poster{
+    padding-top: 3em;
+}
+
+#royce {
+    display: block;
+    margin: auto;
+    width: 25em;
+    position: relative;
+    top: -1.75em;
+}
+
+#nav-title {
+    color: #263c97;
+    position: relative;
+    top: 1.5em;
+    left: 1em;
+    width: 12em;
+    font-size: 1.25em
+}
+@media only screen and (max-width: 680px) {
+    .title-box{
+        font-size: 0.75em;
+    }
+}

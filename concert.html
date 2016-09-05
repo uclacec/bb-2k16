@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Bruin Bash 2016 | Concert </title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/concert-style.css">
+    <link rel="stylesheet" type="text/css" href="css/general.css">
 </head>
 <body>
     <!--Mitch-->
@@ -19,5 +24,91 @@
 
     </script>
     <!--End Google Analytics-->
+    <nav>
+        <div class="button dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="#">Concert</a></li>
+            <li><a href="festival.html">Festival</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <div class="frame full-border header">
+
+    <!-- ROYCE GOES HERE -->
+        <img src="assets/white-royce.png" id="royce"/>
+
+    </div>
+    <div class="frame min-border title">
+        <div class="title-box invert">
+            <p class="title-box-text">BRUIN BASH</p>
+        </div>
+        <div class="title-box regular">
+            <p class="title-box-text">CONCERT</p>
+        </div>
+        <div class="clear"></div>
+
+        <img src="assets/concert-logo.png" id="logo"/>
+
+        <div class="title-summary">
+            <h4 id="summary-text">Get ready for the night of your life. Our concert will be held in the legendary Pauley Pavillion and will keep you on your feet all night long (so wear comfortable shoes). We have a star-studded lineup, ready to welcome you back home.</h4>
+            <h4>Presented to you by <span class="underline">CEC + CAC</span></h4>
+        </div>
+
+    </div>
+    <div class="frame min-border nav"> 
+        <div id="nav-title">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle-o fa-stack-2x"></i>
+                <i class="fa fa-map-marker fa-stack-1x"></i>
+            </span>
+            <span>Information</span>
+        </div> 
+        <div class="nav-clickable switch" id="wristbands">
+            <p class="nav-clickable-title">Wristbands</p>
+        </div>
+        <div class="nav-clickable current" id="concert">
+            <p class="nav-clickable-title">Concert</p>
+        </div>
+    </div>
+    <div class="frame min-border info">
+    <div class="clear"></div>
+        <div class='headliner'>
+            <img src='assets/headliner-silhouette.png' class='headlinerPic'>
+            <hr class='break'>
+            <h3 class='shrug'>¯\_(ツ)_/¯</h3>
+            <hr class='break'>
+            <h3 class='headliner-description'>We didn't think you would be able to handle the entire lineup at once, so we decided to take it easy on you. Come back tomorrow, we'll have something special for you.</h3>
+        </div>
+        <div class='matoma'>
+            <img src='assets/matoma.jpg' class='matomaPic'>
+            <hr class='break'>
+            <h3 class='matomaTitle'>Matoma</h3>
+            <hr class='break'>
+            <h3 class='matomaSub'>A modern staple to festival lineups.</h3>
+            <h5 class='matomaDescription'>Norway's Tom Stræte Lagergren (aka Matoma) is a DJ and producer known for his dance-oriented, tropical house music. By 2014, he had started to gain international recognition for his Matoma remixes, including cuts for Jessie J, Akon, Enrique Iglesias, and others.</h5>
+        </div>
+        <div class='fourohfour'>
+            <img src='assets/fourohfour.png' class='fourohfourPic'>
+            <hr class='break'>
+            <h3 class='fourohfourTitle'>404 Artist Not Found</h3>
+            <hr class='break'>
+            <h3 class='fourohfourSub'>The artist you are looking for cannot be found.</h3>
+            <h5 class='fourohfourDescription'>Please check back in a day or two.</h5>
+        </div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/concert-app.js"></script>
+    <script>
+        $('.dropdown-toggle').dropdown();
+    </script>
 </body>
 </html>

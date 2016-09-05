@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(156, 90, 183);
+}
+
+.info-box {
+	width: 63em;
+	border: 0.2em solid #263c97;
+	position: relative;
+	left: 3em;
+	top: 2.25em;
+	float: left;
+    margin-bottom: 3em;
+    color: rgb(156, 90, 183);
+}
+
+.info-box-summary {
+	background-color: white;
+}
+
+.info-box h2, h3, p {
+	margin: 0px;
+}
+
+.info-box h2 {
+    padding: 0.4em 0.6em;
+    border-bottom: 0.1em solid #263c97;
+}
+
+.info-box h3 {
+    padding: 0.4em 0.6em;
+}
+
+.info-box p {
+    padding: 0.3em 2em 0.6em 2em;
+}
