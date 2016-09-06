@@ -32,7 +32,7 @@ div.container{
     height: 12%;
 }
 #box2{
-    height: 42%;
+    height: 60%;
 }
 #box3{
     height: 5%;
@@ -41,7 +41,7 @@ div.container{
 
 }
 #box4{
-    height: 85%;
+    height: 90%;
     margin-bottom: 1%;
 }
 
@@ -57,15 +57,15 @@ div.container{
 .festival_img{
     width: 33.33%;
     height: 35%;
-    margin-top: 0;
+    margin-top: 1%;
     margin-left: 33.33%;
     margin-right: 33.33%;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 
 }
 
 #festival_label{
-    height: 13%;
+    height: 8%;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -95,7 +95,8 @@ div.container{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    color: black;
+    font-size: 18px;
+    color: #263c97;
 }
 
 
@@ -144,13 +145,13 @@ div.festival{
     border-color: transparent;
     border-bottom-color: #263c97 !important;
     border-style: solid;
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 1%;
     padding-left: 1%;
     margin-bottom: 1%;
 }
 .fest_body{
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .lineup_head{
@@ -158,13 +159,13 @@ div.festival{
     border-color: transparent;
     border-bottom-color: #263c97 !important;
     border-style: solid;
-    font-size: 13px;
+    font-size: 14px;
     padding-top: .25%;
     padding-left: 1%;
     margin-bottom: .5%;
 }
 .lineup_body{
-    font-size: 12px;
+    font-size: 13px;
 }
 
 div.lineup{
@@ -238,7 +239,7 @@ div.give{
         color: #263c97;
         font-size: 10px;
     }
-    #box2{
+    #box2text{
         font-size: 12px;
     }
     #festival_label{
@@ -276,7 +277,7 @@ div.give{
         color: #263c97;
         font-size: 8px;
     }
-    #box2{
+    #box2text{
         font-size: 10px;
     }
     #festival_label{
@@ -338,6 +339,9 @@ div.give{
         font-size: 5px;
     }
     #box2{
+        height: 40%;
+    }
+    #box2text{
         font-size: 8px;
     }
     #festival_label{
@@ -418,8 +422,10 @@ div.give{
         font-size: 4px;
     }
     #box2{
-        font-size: 7px;
         height: 35%;
+    }
+    #box2text{
+        font-size: 7px;
     }
     #festival_label{
         font-size: 5px;
