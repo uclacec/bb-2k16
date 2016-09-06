@@ -14,12 +14,12 @@ $(document).ready(function(){
 		lights = true;
 		$("#logo").attr('src','assets/Home%20Page%20Nighttime%20Animation.gif');
 		$('#left').css({ "background-color" : "#090344"});
-		$('#concert').css({ "background-color" : "#0000cc"});
-		$('#film').css({ "background-color" : "#9999e6"});
-		$('#festival').css({ "background-color" : "#ff66d9"});
-		$('#faq').css({ "background-color" : "#00ffcc"});
+		$('#concert').css({ "background-color" : "#140d01"});
+		$('#film').css({ "background-color" : "#170116"});
+		$('#festival').css({ "background-color" : "#011000"});
+		$('#faq').css({ "background-color" : "#170022"});
 		$('.title').css({ "color" : "white"});
-		$('.subtitle').css({"color":"white"})
+		$('.subtitle').css({"color" : "white"});
 		}
 	else if (lights == true) {
 		lights = false;
@@ -30,7 +30,7 @@ $(document).ready(function(){
 		$('#festival').css({ "background-color" : "#2ecc71"});
 		$('#faq').css({ "background-color" : "#9b59b6"});
 		$('.title').css({ "color" : "darkblue"});
-		$('.subtitle').css({"color":"darkblue"});
+		$('.subtitle').css({"color" : "darkblue"});
 			//change everything back
 		}
 	});
