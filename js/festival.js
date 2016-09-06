@@ -27,12 +27,6 @@ $( document ).ready(function() {
         $("div#box4").removeClass("small");
     });
     $("div.default_giveaway").click(function(){
-        $("div.box3_festival").removeClass("active");
-        $("div.box3_giveaway").addClass("active");
-        $("div.default_giveaway").addClass("hide");
-        $("div.festival").addClass("hide");
-        $("div.lineup").addClass("hide");
-        $("div.give").removeClass("hide");
-        $("div#box4").addClass("small");
+        window.location.href = 'http://www.bruinbash.ucla.edu/';
     });
 });
