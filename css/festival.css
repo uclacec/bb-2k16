@@ -98,9 +98,13 @@ div.container{
     color: black;
 }
 
+
 .text{
+    font-family: 'din', fallback, sans-serif;
+}
+
+.textcenter{
     text-align: center;
-    font-family: din;
 }
 
 div.festival{
@@ -129,14 +133,11 @@ div.festival{
     background-color: white;
     color: #263c97;
     height: 30%;
-    font-family: din;
     font-size: 21px;
     padding-top: .75%;
     padding-left: 1%;
     padding-right: 1%;
 }
-
-
 
 .fest_head{
     border-width: 2px;
@@ -151,8 +152,6 @@ div.festival{
 .fest_body{
     font-size: 12px;
 }
-
-
 
 .lineup_head{
     border-width: 2px;
@@ -407,7 +406,7 @@ div.give{
         height: 40% !important;
     }
     #box4{
-        height: 55%;
+        height: 60%;
         margin-bottom: 1%;
     }
 }
