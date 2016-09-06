@@ -29,19 +29,19 @@ div.container{
 
 #box1{
     margin-top: 5%;
-    height: 11%;
+    height: 12%;
 }
 #box2{
-    height: 28%;
+    height: 42%;
 }
 #box3{
-    height: 4%;
+    height: 5%;
     color: #263c97;
     font-size: 12px;
 
 }
 #box4{
-    height: 63%;
+    height: 85%;
     margin-bottom: 1%;
 }
 
@@ -331,7 +331,7 @@ div.give{
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px)  and (min-width: 351px) {
     #box3{
         height: 4%;
         color: #263c97;
@@ -401,6 +401,87 @@ div.give{
     }
     .give_body{
         font-size: 6px !important;
+    }
+    .small{
+        height: 40% !important;
+    }
+    #box4{
+        height: 60%;
+        margin-bottom: 1%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #box3{
+        height: 4%;
+        color: #263c97;
+        font-size: 4px;
+    }
+    #box2{
+        font-size: 7px;
+        height: 35%;
+    }
+    #festival_label{
+        font-size: 5px;
+    }
+    .default_giveaway {
+        font-size: 10px;
+    }
+    .fest_head{
+        font-size: 13px;
+    }
+    .fest_body{
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 5px;
+    }
+    .lineup_head{
+        font-size: 9px;
+    }
+    .lineup_body{
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 5px;
+    }
+    span.default{
+        font-size: 14px !important;
+    }
+    .box3_festival{
+        padding-left: 0;
+    }
+    .box3_giveaway{
+        padding-left: 0;
+    }
+    #bash{
+        padding-right: 0;
+        padding-top: 1%;
+    }
+    #festival{
+        padding-right: 0;
+        padding-top: 1%;
+    }
+    .royce_image{
+        margin-top: -4%;
+    }
+    .box3{
+        padding-top: 1.2%;
+    }
+    span.box3{
+        font-size: 6px !important;
+    }
+    img.playful{
+        width: 60px !important;
+        height: 20px !important;
+    }
+    p.playful{
+        height: 20px !important;
+        font-size: 10px !important;
+    }
+    .give_head{
+        font-size: 14px !important;
+    }
+    .give_body{
+        font-size: 5px !important;
     }
     .small{
         height: 40% !important;
