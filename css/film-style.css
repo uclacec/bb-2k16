@@ -1,7 +1,7 @@
 html, body { height: 100%; width: 100%; margin: 0; font-family: "din"}
 
 body {
-    background-color: #F7494A;
+    background-color: rgb(240, 128, 128);
 }
 
 /*Reusable css classes*/
@@ -125,6 +125,11 @@ body {
     width: 12em;
     font-size: 1.25em
 }
+
+#image{
+    padding-top: 0px !important;
+}
+
 @media only screen and (max-width: 680px) {
     .title-box{
         font-size: 0.75em;
