@@ -3,6 +3,11 @@
  */
 
 $( document ).ready(function() {
+    var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+    if(isSafari){
+        $(".text").removeClass("text");
+    }
+
     $("div.box3_giveaway").click(function(){
         $("div.box3_festival").removeClass("active");
         $("div.box3_giveaway").addClass("active");
