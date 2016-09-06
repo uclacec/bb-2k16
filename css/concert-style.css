@@ -2,7 +2,9 @@ html, body { height: 100%; width: 100%; margin: 0; }
 
 @font-face {
     font-family:'din';
-    src:url("../fonts/din-regular.ttf");
+    src:url("../fonts/din-regular.ttf"),
+    url('../fonts/din-regular-webfont.woff2') format('woff2'),
+    url('../fonts/din-regular-webfont.woff') format('woff');
 }
 
 @font-face {
@@ -12,7 +14,7 @@ html, body { height: 100%; width: 100%; margin: 0; }
 
 body {
 	background-color: #FFD000;
-	font-family: 'din';
+	font-family: 'din', sans-serif;
 	color: #263c97;
 }
 
