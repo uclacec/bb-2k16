@@ -13,8 +13,8 @@ $(document).ready(function(){
 	if(lights == false){
 		lights = true;
 		$("#logo").attr('src','assets/Home%20Page%20Nighttime%20Animation.gif');
-		$('#left').css({ "background-color" : "#090344"});
-		$('#concert').css({ "background-color" : "#0000cc"});
+		$('#left').css({ "background-color" : "#40bfff"});
+		$('#concert').css({ "background-color" : "#fed225"});
 		$('#film').css({ "background-color" : "#9999e6"});
 		$('#festival').css({ "background-color" : "#ff66d9"});
 		$('#faq').css({ "background-color" : "#00ffcc"});
