@@ -1,5 +1,11 @@
+@import 'concert-style.css';
+
 body {
     background-color: rgb(156, 90, 183);
+}
+
+#nav-title {
+    color: #fff;
 }
 
 .info-box {
@@ -15,6 +21,11 @@ body {
 
 .info-box-summary {
 	background-color: white;
+    display: none;
+}
+
+.info-box-summary.current {
+    display: block;
 }
 
 .info-box h2, h3, p {
