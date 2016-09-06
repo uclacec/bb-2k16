@@ -23,7 +23,7 @@ $(document).ready(function(){
 		}
 	else if (lights == true) {
 		lights = false;
-		$('#logo').attr('src','assets/Home%20Page%20Daytime%20Animation.gif');
+		$('#logo').attr('src','assets/Home%20Page%20Blue%20Daytime%20Animation.gif');
 		$('#left').css({ "background-color" : "#fed202"});
 		$('#concert').css({ "background-color" : "deepskyblue"});
 		$('#film').css({ "background-color" : "lightcoral"});
