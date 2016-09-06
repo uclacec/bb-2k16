@@ -77,6 +77,7 @@ a #festival .subtitle:hover{ text-decoration:none !important; }
 @media only screen and (min-width: 800px) {  body {  overflow:hidden;  margin:0;  }  }
 @media only screen and (max-width: 800px) {
     #left{ height:105vh; overflow:visible; }
+    #right{height:200vh;}
 }
 
 #lit{display:inline-block;position:relative;z-index:100;}
