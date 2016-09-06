@@ -1,4 +1,12 @@
 /*Navbar*/
+@media only screen and (min-width: 800px) {
+    .bar{width:10vw;height:10px; margin:15px 10px 5px 10px;}
+    nav .dropdown-menu{
+        width:100%;
+        font-size:4em;
+        left:0;
+    }
+}
 nav{height:10vh;  width:100%;}
 .button{
     position:absolute;
@@ -17,12 +25,4 @@ nav .dropdown-menu{
     left:85%;
     top:8%;
     width:30px;
-}
-@media only screen and (min-width: 800px) {
-    .bar{width:10vw;height:10px; margin:15px 10px 5px 10px;}
-    nav .dropdown-menu{
-        width:100%;
-        font-size:4em;
-        left:0;
-    }
 }
