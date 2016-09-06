@@ -13,14 +13,18 @@ $(document).ready(function(){
 	if(lights == false){
 		lights = true;
 		$("#logo").attr('src','assets/Home%20Page%20Nighttime%20Animation.gif');
-		$('#left').css({ "background-color" : "#090344"});
+		$('#left').css({ "background-color" : "#090344", "cursor":'url(../assets/fire_emoji.gif), pointer !important;'});
 		$('#concert').css({ "background-color" : "#140d01"});
 		$('#film').css({ "background-color" : "#170116"});
 		$('#festival').css({ "background-color" : "#011000"});
 		$('#faq').css({ "background-color" : "#170022"});
-		$('.title').css({ "color" : "white"});
 		$('.subtitle').css({"color" : "white"});
-		}
+		$('#left').find('.title').css({'color':'white'});
+
+		//take out all of the words
+		$('#right').find(".title").css({'display':'none'});
+		$('.glow').css({'display':'block'});
+	}
 	else if (lights == true) {
 		lights = false;
 		$('#logo').attr('src','assets/Home%20Page%20Blue%20Daytime%20Animation.gif');
@@ -29,9 +33,12 @@ $(document).ready(function(){
 		$('#film').css({ "background-color" : "lightcoral"});
 		$('#festival').css({ "background-color" : "#2ecc71"});
 		$('#faq').css({ "background-color" : "#9b59b6"});
-		$('.title').css({ "color" : "darkblue"});
 		$('.subtitle').css({"color" : "darkblue"});
+		$('#left').find('.title').css({'color':'darkblue'});
 			//change everything back
+		//put in all the words
+		$('.title').css({'display':'block'});
+		$('.glow').css({'display':'none'});
 		}
 	});
 });
