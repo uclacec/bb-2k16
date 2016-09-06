@@ -18,8 +18,12 @@ $(document).ready(function(){
 		$('#film').css({ "background-color" : "#170116"});
 		$('#festival').css({ "background-color" : "#011000"});
 		$('#faq').css({ "background-color" : "#170022"});
-		$('.subtitle').css({"color" : "white"});
+		$('#left').find('.subtitle').css({"color" : "white"});
 		$('#left').find('.title').css({'color':'white'});
+		$('#concert').find('.subtitle').css({'color':'rgb(229, 201, 129)'});
+		$('#film').find('.subtitle').css({'color':'rgb(159, 53, 152)'});
+		$('#festival').find('.subtitle').css({'color':'rgb(62, 168, 67)'});
+		$('#faq').find('.subtitle').css({'color':'rgb(114, 70, 163)'});
 
 		//take out all of the words
 		$('#right').find(".title").css({'display':'none'});
