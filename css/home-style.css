@@ -1,11 +1,12 @@
 a, a:hover{text-decoration:none;}
 
 #left{
-    background-color:#fed202;
+    background-color:#40bfff;
     height:100vh;
     display:inline-block;
     margin:0;
     color:darkblue;
+    cursor:url(../assets/fire_emoji.png),url(../assets/fire_emoji.gif), pointer !important;
 }
 #left .title{ padding:0 !important; text-align:center; }
 #left .subtitle{text-align:center;font-family: 'dinregular', Helvetica,sans-serif;}
@@ -46,17 +47,17 @@ a, a:hover{text-decoration:none;}
     padding-top:20%;
     padding-bottom:20%;
     font-size:3em;
-    font-family:'BeonMedium', Helvetica, sans-serif;
+    font-family:'dinregular', Helvetica, sans-serif;
 }
 .subtitle{
     text-decoration:none;
     font-size:1em;
-    font-family:'BeonMedium', Helvetica, sans-serif;
+    font-family:'dinregular', Helvetica, sans-serif;
     padding-top:20px;
 }
 .row{margin:0;}
 a #festival .subtitle:hover{ text-decoration:none !important; }
-#concert{background-color:deepskyblue;}
+#concert{background-color:#fed225;}
 #film{background-color:lightcoral;}
 #festival{background-color:#ffb444;}
 #faq{background-color:#9b59b6;}
