@@ -15,6 +15,12 @@ var matomaInfo = "<img src='assets/matoma.jpg' class='matomaPic'><hr class='brea
 var fourohfour = "<div class='fourohfour'></div>";
 var fourohfourInfo = "<img src='assets/fourohfour.png' class='fourohfourPic'><hr class='break'><h3 class='fourohfourTitle'>404 Artist Not Found</h3><hr class='break'><h3 class='fourohfourSub'>The artist you are looking for cannot be found.</h3><h5 class='fourohfourDescription'>Please check back in a day or two.</h5>";
 $(function() {
+	if (Browser.safari)
+	{
+		$('body').css('font-family', 'Helvetica');
+	}
+
+
 	$('#wristbands').on('click', function() {
 		$(this).removeClass("switch");
 		$(this).addClass("current");
