@@ -4,7 +4,7 @@ var title1 = "<h2 class='wristTitle'>How do I get a wristband?</h2>";
 var title2 = "<h2 class='wristTitle'>Wristband Giveaway</h2>";
 var desc1 = "<h3 class='wristDescription'>Wristbands will be distributed via an online lottery this year. The deadline to signup is SEPTEMBER 9th, at 4:00PM.</h3>";
 var desc2 = "<h3 class='wristDescription'>For the full details, please click the following link:</h3>";
-var desc3 = "<h3 class='wristDescription'>In case you didn't receive a floor wristband from the lottery, we will be giving away XX floor wristbands through a competition.</h3>";
+var desc3 = "<h3 class='wristDescription'>In case you didn't receive a floor wristband from the lottery, we will be giving away a few floor wristbands through a competition.</h3>";
 var desc4 = "<h3 class='wristDescription'>Click <a href='festival.html' class='wristClick2'>here</a> for more details.</h3>";
 var button = "<div class='center'><a href='http://bruinbash.ucla.edu/lotto.html' target='_blank' class='wristClick'>CLICK HERE</a></div>";
 var hr = "<hr class='break'>";
