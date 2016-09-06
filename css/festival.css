@@ -28,8 +28,8 @@ div.container{
 }
 
 #box1{
-    margin-top: 5%;
-    height: 12%;
+    margin-top: 3%;
+    height: 18%;
 }
 #box2{
     height: 60%;
@@ -47,19 +47,20 @@ div.container{
 
 .royce_image{
     height: 125%;
-    width: 30%;
-    margin-top: -1.6%;
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-bottom: 0;
+    width: 36%;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -1.75em;
 }
 
 .festival_img{
-    width: 33.33%;
-    height: 35%;
+    width: 36%;
+    height: 30%;
     margin-top: 1%;
-    margin-left: 33.33%;
-    margin-right: 33.33%;
+    margin-left: 32%;
+    margin-right: 32%;
     margin-bottom: 2%;
 
 }
@@ -74,6 +75,8 @@ div.container{
 }
 
 #bash{
+    margin-left: 30%;
+    width: 20%;
     height: 100%;
     background-color: #263c97;
     color: white;
@@ -83,6 +86,7 @@ div.container{
     border-style: solid;
 }
 #festival{
+    width: 20%;
     height: 100%;
     color: #263c97;
     border-top-color: transparent !important;
@@ -99,6 +103,10 @@ div.container{
     color: #263c97;
 }
 
+.noPadding{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
 
 .text{
     font-family: 'din', fallback, sans-serif;
@@ -240,7 +248,7 @@ div.give{
         font-size: 10px;
     }
     #box2text{
-        font-size: 12px;
+        font-size: 14px;
     }
     #festival_label{
         font-size: 10px;
@@ -257,15 +265,6 @@ div.give{
     span.default{
         font-size: 28px !important;
     }
-    .box3_festival{
-        padding-left: 5px;
-    }
-    .box3_giveaway{
-        padding-left: 5px;
-    }
-    .royce_image{
-        margin-top: -2.1%;
-    }
     .give_body{
         font-size: 13px !important;
     }
@@ -276,6 +275,9 @@ div.give{
         height: 4%;
         color: #263c97;
         font-size: 8px;
+    }
+    #box2{
+        height: 50%;
     }
     #box2text{
         font-size: 10px;
@@ -304,17 +306,6 @@ div.give{
     }
     .box3_giveaway{
         padding-left: 2px;
-    }
-    #bash{
-        padding-right: 0;
-        padding-top: .5%;
-    }
-    #festival{
-        padding-right: 0;
-        padding-top: .5%;
-    }
-    .royce_image{
-        margin-top: -2.6%;
     }
     img.playful{
         width: 100px !important;
@@ -369,12 +360,6 @@ div.give{
     span.default{
         font-size: 18px !important;
     }
-    .box3_festival{
-        padding-left: 1px;
-    }
-    .box3_giveaway{
-        padding-left: 1px;
-    }
     #bash{
         padding-right: 0;
         padding-top: 1%;
@@ -382,9 +367,6 @@ div.give{
     #festival{
         padding-right: 0;
         padding-top: 1%;
-    }
-    .royce_image{
-        margin-top: -4%;
     }
     .box3{
         padding-top: 1.2%;
@@ -428,7 +410,7 @@ div.give{
         font-size: 7px;
     }
     #festival_label{
-        font-size: 5px;
+        font-size: 4px;
     }
     .default_giveaway {
         font-size: 10px;
@@ -459,15 +441,10 @@ div.give{
         padding-left: 0;
     }
     #bash{
-        padding-right: 0;
         padding-top: 1%;
     }
     #festival{
-        padding-right: 0;
         padding-top: 1%;
-    }
-    .royce_image{
-        margin-top: -4%;
     }
     .box3{
         padding-top: 1.2%;
