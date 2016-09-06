@@ -301,7 +301,6 @@ body {
 .matomaTitle {
 	margin: 0;
 	position: relative;
-	top: .2em;
 	left: .3em;
 	padding-bottom: .1em;
 	cursor: pointer;
@@ -340,7 +339,6 @@ body {
 .fourohfourTitle {
 	margin: 0;
 	position: relative;
-	top: .2em;
 	left: .2em;
 	padding-bottom: .1em;
 	cursor: pointer;
