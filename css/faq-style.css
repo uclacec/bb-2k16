@@ -1,7 +1,9 @@
 @import 'concert-style.css';
+@import '../fonts/stylesheet.css';
 
 body {
     background-color: rgb(156, 90, 183);
+    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
 }
 
 #nav-title {
