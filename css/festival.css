@@ -234,6 +234,7 @@ div.give{
     height: 55% !important;
 }
 
+
 @media only screen and (max-width: 1100px) and (min-width: 801px) {
     #box3{
         height: 4%;
@@ -317,6 +318,14 @@ div.give{
 }
 
 @media only screen and (max-width: 500px)  and (min-width: 351px) {
+
+    nav .dropdown-menu {
+        right: 5px !important;
+        left: 0 !important;
+        top: 8%;
+        width: 100% !important;
+    }
+
     .royce_image{
         top: -1.9em;
     }
@@ -397,6 +406,13 @@ div.give{
 }
 
 @media only screen and (max-width: 350px) {
+    nav .dropdown-menu {
+        right: 5px !important;
+        left: 0 !important;
+        top: 8%;
+        width: 100% !important;
+    }
+
     .royce_image{
         top: -1.5em;
         width: 42%;
