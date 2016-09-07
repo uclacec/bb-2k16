@@ -1,16 +1,9 @@
-@font-face {
-    font-family:'din';
-    src:url("../fonts/din-regular.ttf");
-}
-
-@font-face {
-    font-family:'beon';
-    src:url("../fonts/beon-webfont.ttf");
-}
+@import '../fonts/stylesheet.css';
 
 html, body{
     background-color: orange;
     height: 100%;
+    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
 }
 
 div.container{
@@ -28,44 +21,45 @@ div.container{
 }
 
 #box1{
-    margin-top: 5%;
-    height: 11%;
+    margin-top: 3%;
+    height: 18%;
 }
 #box2{
-    height: 28%;
+    height: 60%;
 }
 #box3{
-    height: 4%;
+    height: 5%;
     color: #263c97;
     font-size: 12px;
 
 }
 #box4{
-    height: 63%;
+    height: 90%;
     margin-bottom: 1%;
 }
 
 .royce_image{
     height: 125%;
-    width: 30%;
-    margin-top: -1.6%;
-    margin-left: 35%;
-    margin-right: 35%;
-    margin-bottom: 0;
+    width: 36%;
+    bottom: 0;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: -1.75em;
 }
 
 .festival_img{
-    width: 33.33%;
-    height: 35%;
-    margin-top: 0;
-    margin-left: 33.33%;
-    margin-right: 33.33%;
-    margin-bottom: 1%;
+    width: 36%;
+    height: 30%;
+    margin-top: 1%;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-bottom: 2%;
 
 }
 
 #festival_label{
-    height: 13%;
+    height: 8%;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -74,6 +68,8 @@ div.container{
 }
 
 #bash{
+    margin-left: 30%;
+    width: 20%;
     height: 100%;
     background-color: #263c97;
     color: white;
@@ -83,6 +79,7 @@ div.container{
     border-style: solid;
 }
 #festival{
+    width: 20%;
     height: 100%;
     color: #263c97;
     border-top-color: transparent !important;
@@ -95,12 +92,21 @@ div.container{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    color: black;
+    font-size: 18px;
+    color: #263c97;
+}
+
+.noPadding{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .text{
+    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
+}
+
+.textcenter{
     text-align: center;
-    font-family: din;
 }
 
 div.festival{
@@ -129,43 +135,38 @@ div.festival{
     background-color: white;
     color: #263c97;
     height: 30%;
-    font-family: din;
     font-size: 21px;
     padding-top: .75%;
     padding-left: 1%;
     padding-right: 1%;
 }
 
-
-
 .fest_head{
     border-width: 2px;
     border-color: transparent;
     border-bottom-color: #263c97 !important;
     border-style: solid;
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 1%;
     padding-left: 1%;
     margin-bottom: 1%;
 }
 .fest_body{
-    font-size: 12px;
+    font-size: 13px;
 }
-
-
 
 .lineup_head{
     border-width: 2px;
     border-color: transparent;
     border-bottom-color: #263c97 !important;
     border-style: solid;
-    font-size: 13px;
+    font-size: 14px;
     padding-top: .25%;
     padding-left: 1%;
     margin-bottom: .5%;
 }
 .lineup_body{
-    font-size: 12px;
+    font-size: 13px;
 }
 
 div.lineup{
@@ -239,8 +240,8 @@ div.give{
         color: #263c97;
         font-size: 10px;
     }
-    #box2{
-        font-size: 12px;
+    #box2text{
+        font-size: 14px;
     }
     #festival_label{
         font-size: 10px;
@@ -257,15 +258,6 @@ div.give{
     span.default{
         font-size: 28px !important;
     }
-    .box3_festival{
-        padding-left: 5px;
-    }
-    .box3_giveaway{
-        padding-left: 5px;
-    }
-    .royce_image{
-        margin-top: -2.1%;
-    }
     .give_body{
         font-size: 13px !important;
     }
@@ -278,6 +270,9 @@ div.give{
         font-size: 8px;
     }
     #box2{
+        height: 50%;
+    }
+    #box2text{
         font-size: 10px;
     }
     #festival_label{
@@ -305,17 +300,6 @@ div.give{
     .box3_giveaway{
         padding-left: 2px;
     }
-    #bash{
-        padding-right: 0;
-        padding-top: .5%;
-    }
-    #festival{
-        padding-right: 0;
-        padding-top: .5%;
-    }
-    .royce_image{
-        margin-top: -2.6%;
-    }
     img.playful{
         width: 100px !important;
         height: 30px !important;
@@ -332,13 +316,22 @@ div.give{
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px)  and (min-width: 351px) {
+    .royce_image{
+        top: -1.9em;
+    }
+    #box1{
+        height: 12%;
+    }
     #box3{
         height: 4%;
         color: #263c97;
         font-size: 5px;
     }
     #box2{
+        height: 35%;
+    }
+    #box2text{
         font-size: 8px;
     }
     #festival_label{
@@ -366,12 +359,6 @@ div.give{
     span.default{
         font-size: 18px !important;
     }
-    .box3_festival{
-        padding-left: 1px;
-    }
-    .box3_giveaway{
-        padding-left: 1px;
-    }
     #bash{
         padding-right: 0;
         padding-top: 1%;
@@ -379,9 +366,6 @@ div.give{
     #festival{
         padding-right: 0;
         padding-top: 1%;
-    }
-    .royce_image{
-        margin-top: -4%;
     }
     .box3{
         padding-top: 1.2%;
@@ -407,7 +391,88 @@ div.give{
         height: 40% !important;
     }
     #box4{
-        height: 55%;
+        height: 60%;
+        margin-bottom: 1%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    #box1{
+        height: 10%;
+    }
+    #box3{
+        height: 4%;
+        color: #263c97;
+        font-size: 4px;
+    }
+    #box2{
+        height: 30%;
+    }
+    #box2text{
+        font-size: 7px;
+    }
+    #festival_label{
+        font-size: 4px;
+    }
+    .default_giveaway {
+        font-size: 10px;
+    }
+    .fest_head{
+        font-size: 13px;
+    }
+    .fest_body{
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 5px;
+    }
+    .lineup_head{
+        font-size: 9px;
+    }
+    .lineup_body{
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 5px;
+    }
+    span.default{
+        font-size: 14px !important;
+    }
+    .box3_festival{
+        padding-left: 0;
+    }
+    .box3_giveaway{
+        padding-left: 0;
+    }
+    #bash{
+        padding-top: 1%;
+    }
+    #festival{
+        padding-top: 1%;
+    }
+    .box3{
+        padding-top: 1.2%;
+    }
+    span.box3{
+        font-size: 6px !important;
+    }
+    img.playful{
+        width: 60px !important;
+        height: 20px !important;
+    }
+    p.playful{
+        height: 20px !important;
+        font-size: 10px !important;
+    }
+    .give_head{
+        font-size: 14px !important;
+    }
+    .give_body{
+        font-size: 5px !important;
+    }
+    .small{
+        height: 40% !important;
+    }
+    #box4{
+        height: 60%;
         margin-bottom: 1%;
     }
 }

@@ -1,20 +1,10 @@
 html, body { height: 100%; width: 100%; margin: 0; }
 
-@font-face {
-    font-family:'din';
-    src:url("../fonts/din-regular.ttf"),
-    url('../fonts/din-regular-webfont.woff2') format('woff2'),
-    url('../fonts/din-regular-webfont.woff') format('woff');
-}
-
-@font-face {
-    font-family:'beon';
-    src:url("../fonts/beon-webfont.ttf");
-}
+@import '../fonts/stylesheet.css';
 
 body {
 	background-color: #FFD000;
-	font-family: 'din', sans-serif;
+	font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
 	color: #263c97;
 }
 
@@ -201,6 +191,7 @@ body {
 	margin: 0 auto;
 	border: 0.2em solid #263c97;
 	position: relative;
+	background-color: white;
 }
 
 .w-upper {
@@ -300,7 +291,6 @@ body {
 .matomaTitle {
 	margin: 0;
 	position: relative;
-	top: .4em;
 	left: .3em;
 	padding-bottom: .1em;
 	cursor: pointer;
@@ -339,7 +329,6 @@ body {
 .fourohfourTitle {
 	margin: 0;
 	position: relative;
-	top: .4em;
 	left: .2em;
 	padding-bottom: .1em;
 	cursor: pointer;

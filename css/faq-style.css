@@ -1,10 +1,26 @@
 @import 'concert-style.css';
+@import '../fonts/stylesheet.css';
 
 body {
     background-color: rgb(156, 90, 183);
+    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
 }
 
-#nav-title {
+
+
+#nav-title, #summary-text, #presented {
+    color: #fff;
+}
+
+.nav-clickable {
+    cursor: pointer;
+}
+
+.current {
+    cursor: default;
+}
+
+.nav-clickable:not(.current) {
     color: #fff;
 }
 

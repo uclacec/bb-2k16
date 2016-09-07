@@ -2,9 +2,9 @@ var upperContainer = "<div class='wristContainer w-upper'>";
 var lowerContainer = "<div class='wristContainer w-lower'>";
 var title1 = "<h2 class='wristTitle'>How do I get a wristband?</h2>";
 var title2 = "<h2 class='wristTitle'>Wristband Giveaway</h2>";
-var desc1 = "<h3 class='wristDescription'>Wristbands will be distributed via an online lottery this year. The deadline to signup is SEPTEMBER 9th, at 4:00PM.</h3>";
+var desc1 = "<h3 class='wristDescription'>Wristbands will be distributed via an online lottery this year. The deadline <br> to signup is SEPTEMBER 9th, at 4:00PM.</h3>";
 var desc2 = "<h3 class='wristDescription'>For the full details, please click the following link:</h3>";
-var desc3 = "<h3 class='wristDescription'>In case you didn't receive a floor wristband from the lottery, we will be giving away XX floor wristbands through a competition.</h3>";
+var desc3 = "<h3 class='wristDescription'>In case you didn't receive a floor wristband from the lottery, we will be giving away a few floor wristbands through a competition.</h3>";
 var desc4 = "<h3 class='wristDescription'>Click <a href='festival.html' class='wristClick2'>here</a> for more details.</h3>";
 var button = "<div class='center'><a href='http://bruinbash.ucla.edu/lotto.html' target='_blank' class='wristClick'>CLICK HERE</a></div>";
 var hr = "<hr class='break'>";
@@ -15,7 +15,9 @@ var matomaInfo = "<img src='assets/matoma.jpg' class='matomaPic'><hr class='brea
 var fourohfour = "<div class='fourohfour'></div>";
 var fourohfourInfo = "<img src='assets/fourohfour.png' class='fourohfourPic'><hr class='break'><h3 class='fourohfourTitle'>404 Artist Not Found</h3><hr class='break'><h3 class='fourohfourSub'>The artist you are looking for cannot be found.</h3><h5 class='fourohfourDescription'>Please check back in a day or two.</h5>";
 $(function() {
-	$('#wristbands').on('click', function() {
+
+
+	$('body').on('click', '#wristbands', function() {
 		$(this).removeClass("switch");
 		$(this).addClass("current");
 		$('#concert').removeClass("current");
@@ -37,7 +39,7 @@ $(function() {
 		$('.w-lower').append(desc4);
 	});
 
-	$('#concert').on('click', function() {
+	$('body').on('click', '#concert', function() {
 		$(this).removeClass("switch");
 		$(this).addClass("current");
 		$('#wristbands').removeClass("current");
@@ -55,7 +57,7 @@ $(function() {
 		$('.fourohfour').append(fourohfourInfo);
 	});
 
-	$('.headliner').on('click', function() {
+	$('body').on('click', '.headliner', function() {
 		var win = window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
 		if (win) {
     	//Browser has allowed it to be opened
@@ -67,7 +69,7 @@ $(function() {
 		}
 	});
 
-	$('.matoma').on('click', function() {
+	$('body').on('click', '.matoma', function() {
 		var win = window.open('https://soundcloud.com/matoma-official', '_blank');
 		if (win) {
     	//Browser has allowed it to be opened
@@ -79,7 +81,7 @@ $(function() {
 		}
 	});
 
-	$('.fourohfour').on('click', function() {
+	$('body').on('click', '.fourohfour', function() {
 		var win = window.open('https://www.youtube.com/watch?v=Sagg08DrO5U', '_blank');
 		if (win) {
     	//Browser has allowed it to be opened

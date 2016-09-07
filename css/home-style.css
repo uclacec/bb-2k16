@@ -6,10 +6,10 @@ a, a:hover{text-decoration:none;}
     display:inline-block;
     margin:0;
     color:darkblue;
-    cursor:url(../assets/fire_emoji.png),url(../assets/fire_emoji.gif), pointer !important;
+    cursor:pointer;
 }
 #left .title{ padding:0 !important; text-align:center; }
-#left .subtitle{text-align:center;font-family: 'dinregular', Helvetica,sans-serif;}
+#left .subtitle{text-align:center;font-font-family: 'DINRegular', 'Helvetica Neue', sans-serif;}
 
 #right{
     display:inline-block;
@@ -18,6 +18,8 @@ a, a:hover{text-decoration:none;}
     padding:0;
     overflow-y:scroll;
 }
+
+.glow{ display:none; }
 
 #right::-webkit-scrollbar {
     width: 1em;
@@ -44,15 +46,15 @@ a, a:hover{text-decoration:none;}
     margin-top:-3px;
 }
 .title{
-    padding-top:20%;
+    padding-top:15%;
     padding-bottom:20%;
     font-size:3em;
-    font-family:'dinregular', Helvetica, sans-serif;
+    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
 }
 .subtitle{
     text-decoration:none;
     font-size:1em;
-    font-family:'dinregular', Helvetica, sans-serif;
+    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
     padding-top:20px;
 }
 .row{margin:0;}
@@ -75,4 +77,8 @@ a #festival .subtitle:hover{ text-decoration:none !important; }
 @media only screen and (min-width: 800px) {  body {  overflow:hidden;  margin:0;  }  }
 @media only screen and (max-width: 800px) {
     #left{ height:105vh; overflow:visible; }
+    #right{overflow-y:visible;}
 }
+
+#lit{display:inline-block;position:relative;z-index:100;}
+#lit:hover{url(../assets/fire_emoji.png),url(../assets/fire_emoji.gif), pointer !important;}
