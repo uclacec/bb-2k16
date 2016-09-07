@@ -1,0 +1,108 @@
+@font-face {
+    font-family:'ebrima';
+    src:url("../assets/ebrima.ttf");
+}
+
+body{
+    background-color:white;
+}
+
+.royce{
+    position:absolute;
+    z-index:3;
+    width:250px;
+    top:10vh;
+    left:50vw;
+    margin-left: -125px;
+}
+
+.text_container{
+    position:absolute;
+    font-family:ebrima;
+    color:darkblue;
+    top:200px;
+    left:20vw;
+    width:60vw;
+    z-index:2;
+}
+
+.button-center {
+    text-align: center;
+}
+
+#extra-link {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+ul{
+    font-size:18px;
+}
+
+.buttons{
+    font-size:30px;
+    display:inline;
+    font-weight:bold;
+    border: 2px solid darkblue;
+    border-radius: 4px;
+    cursor:pointer;
+    vertical-align:top;
+    margin: 0 auto;
+    color: darkblue;
+    background-color: #c5e3b7;
+}
+
+.buttons:hover{
+    background-color:#9cd9e1;
+}
+
+#bu_upper{
+    position:absolute;
+    right:0px;
+}
+
+.signup_header{
+    font-size:26px;
+}
+
+#upper_level{
+    display:none;
+}
+
+@media only screen and (max-width: 800px) and (min-width:426px) {
+    .text_container{
+        left:5vw;
+        width:90vw;
+    }
+    .buttons{
+        font-size:22px;
+    }
+    ul{
+        font-size:14px;
+    }
+    .signup_header{
+        font-size:20px;
+    }
+}
+@media only screen and (max-width:425px){
+    .text_container{
+        left:5vw;
+        width:90vw;
+    }
+    .buttons{
+        font-size: 16px;
+    }
+    ul{
+        font-size: 12px;
+    }
+    .signup_header{
+        font-size: 14px;
+    }
+}
