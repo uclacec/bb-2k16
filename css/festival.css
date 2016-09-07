@@ -413,6 +413,12 @@ div.give{
         width: 100% !important;
     }
 
+    .bar{
+        margin:5px 10px 5px 10px !important;
+        width:20px !important;
+        height:2px !important;
+    }
+
     .royce_image{
         top: -1.5em;
         width: 42%;
