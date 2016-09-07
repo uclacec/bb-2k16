@@ -9,11 +9,12 @@ var desc4 = "<h3 class='wristDescription'>Click <a href='festival.html' class='w
 var button = "<div class='center'><a href='http://bruinbash.ucla.edu/lotto.html' target='_blank' class='wristClick'>CLICK HERE</a></div>";
 var hr = "<hr class='break'>";
 var headliner = "<div class='headliner' id='ty'></div>";
-var headlinerInfo = "<img src='assets/ty.png' class='headlinerPic'><hr class='break'><h3 class='matomaTitle'>Ty Dolla $ign</h3><hr class='break'><h3 class='matomaSub'>TyDolla$ign was born into music.</h3><h5 class='headliner-description'>The ability to produce music in various genres while retaining a signature sound is what TyDolla$ign prides himself on. <br> With major labels calling, millions of online views, and co-signs from Snoop Dogg and Will.I.Am., the movement is on the rise. TyDolla$ign continues to tour all over the country to promote his mixtapes and additional projects. As TyDolla$ign continues to find commercial success producing, he's amassing a huge following as an artist.</h5>";
+var headlinerInfo = "<img src='assets/ty.png' class='headlinerPic'><hr class='break'><h3 class='matomaTitle'>Ty Dolla $ign</h3><hr class='break'><h3 class='matomaSub'>TyDolla$ign was born into music.</h3><h5 class='matomaDescription'>The ability to produce music in various genres while retaining a signature sound is what TyDolla$ign prides himself on. <br> With major labels calling, millions of online views, and co-signs from Snoop Dogg and Will.I.Am., the movement is on the rise. TyDolla$ign continues to tour all over the country to promote his mixtapes and additional projects. As TyDolla$ign continues to find commercial success producing, he's amassing a huge following as an artist.</h5>";
 var matoma = "<div class='headliner' id='matoma'></div>";
 var matomaInfo = "<img src='assets/matoma.png' class='headlinerPic'><hr class='break'><h3 class='matomaTitle'>Matoma</h3><hr class='break'><h3 class='matomaSub'>A modern staple to festival lineups.</h3><h5 class='matomaDescription'>Norway's Tom Stræte Lagergren (aka Matoma) is a DJ and producer known for his dance-oriented, tropical house music. By 2014, he had started to gain international recognition for his Matoma remixes, including cuts for Jessie J, Akon, Enrique Iglesias, and others.</h5>";
 var fourohfour = "<div class='headliner' id='sb'></div>";
 var fourohfourInfo = "<img src='assets/sbs.png' class='headlinerPic'><hr class='break'><h3 class='fourohfourTitle'>404 Artist Not Found</h3><hr class='break'><h3 class='fourohfourSub'>The artist you are looking for cannot be found.</h3><h5 class='fourohfourDescription'>Please check back in a day or two.</h5>";
+var clear = '<div class="clear"></div>';
 $(function() {
 
 
@@ -22,7 +23,9 @@ $(function() {
 		$(this).addClass("current");
 		$('#concert').removeClass("current");
 		$('#concert').addClass("switch");
+
 		$('.info').empty();
+		$('.info').append(clear);
 
 
 		$('.info').append(upperContainer);
@@ -46,6 +49,7 @@ $(function() {
 		$('#wristbands').addClass("switch");
 
 		$('.info').empty();
+		$('.info').append(clear);
 
 		$('.info').append(headliner);
 		$('#ty').append(headlinerInfo);
@@ -58,7 +62,7 @@ $(function() {
 	});
 
 	$('body').on('click', '#ty', function() {
-		var win = window.open('https://www.youtube.com/watch?v=TUj0otkJEBo', '_blank');
+		var win = window.open('https://www.youtube.com/watch?v=snTZ7X8OMuc', '_blank');
 		if (win) {
     	//Browser has allowed it to be opened
     	win.focus();
