@@ -40,14 +40,14 @@ $(document).ready(function(){
 	else if (lights == true) {
 		lights = false;
         $('#logo').attr('src','assets/Home%20Page%20New%20Blue%20Daytime%20Animation.gif');
-        $("#cec-site").attr('src','assets/socialmedia/cecb.png');
-        $("#cec-facebook").attr('src','assets/socialmedia/facebook.png');
-        $("#cec-instagram").attr('src','assets/socialmedia/Instagram.png');
-        $("#cec-twitter").attr('src','assets/socialmedia/twitter.png');
-        $("#cac-site").attr('src','assets/socialmedia/cac.png');
-        $("#cac-facebook").attr('src','assets/socialmedia/facebook.png');
-        $("#cac-instagram").attr('src','assets/socialmedia/Instagram.png');
-        $("#cac-twitter").attr('src','assets/socialmedia/twitter.png');
+        $("#cec-site").attr('src','assets/socialmedia/Website%20Transparent.png');
+        $("#cec-facebook").attr('src','assets/socialmedia/Facebook%20Transparent.png');
+        $("#cec-instagram").attr('src','assets/socialmedia/Instagram%20Transparent.png');
+        $("#cec-twitter").attr('src','assets/socialmedia/Twitter%20Transparent.png');
+        $("#cac-site").attr('src','assets/socialmedia/Cac%20Transparent.png');
+        $("#cac-facebook").attr('src','assets/socialmedia/Facebook%20Transparent.png');
+        $("#cac-instagram").attr('src','assets/socialmedia/Instagram%20Transparent.png');
+        $("#cac-twitter").attr('src','assets/socialmedia/Twitter%20Transparent.png');
 		$('#left').css({ "background-color" : "#40bfff"});
 		$('#concert').css({ "background-color" : "#fed225"});
 		$('#film').css({ "background-color" : "lightcoral"});
