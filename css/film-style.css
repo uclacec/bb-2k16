@@ -82,6 +82,7 @@ body {
 }
 
 .underline {
+    cursor:pointer;
     border-bottom: 0.2em solid #263c97;
 }
 
@@ -115,6 +116,7 @@ body {
     width: 25em;
     position: relative;
     top: -1.75em;
+    cursor:pointer;
 }
 
 #nav-title {
