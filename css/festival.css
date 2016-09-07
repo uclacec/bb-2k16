@@ -333,6 +333,7 @@ div.give{
     }
 
     a{
+        font-size: 14px;
         height: 25px;
     }
 
@@ -429,8 +430,9 @@ div.give{
         width:20px !important;
         height:2px !important;
     }
-    
+
     a{
+        font-size: 14px;
         height: 25px;
     }
 
