@@ -397,8 +397,15 @@ div.give{
 }
 
 @media only screen and (max-width: 350px) {
+    .royce_image{
+        top: -1.5em;
+        width: 42%;
+    }
+    .festival_img{
+        width: 42%;
+    }
     #box1{
-        height: 10%;
+        height: 8%;
     }
     #box3{
         height: 4%;
@@ -406,7 +413,7 @@ div.give{
         font-size: 4px;
     }
     #box2{
-        height: 30%;
+        height: 28%;
     }
     #box2text{
         font-size: 7px;
