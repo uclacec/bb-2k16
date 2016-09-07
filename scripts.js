@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 	if(lights == false){
 		lights = true;
-		$("#logo").attr('src','assets/Home%20Page%20Nighttime%20Animation.gif');
+		$("#logo").attr('src','assets/Home%20Page%20New%20Nighttime%20Animation.gif');
 		$('#left').css({ "background-color" : "#090344", "cursor":'url(../assets/fire_emoji.gif), pointer !important;'});
 		$('#concert').css({ "background-color" : "#140d01"});
 		$('#film').css({ "background-color" : "#170116"});
@@ -31,7 +31,7 @@ $(document).ready(function(){
 	}
 	else if (lights == true) {
 		lights = false;
-		$('#logo').attr('src','assets/Home%20Page%20Blue%20Daytime%20Animation.gif');
+		$('#logo').attr('src','assets/Home%20Page%20New%20Blue%20Daytime%20Animation.gif');
 		$('#left').css({ "background-color" : "#40bfff"});
 		$('#concert').css({ "background-color" : "#fed225"});
 		$('#film').css({ "background-color" : "lightcoral"});
