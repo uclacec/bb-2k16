@@ -8,12 +8,12 @@ var desc3 = "<h3 class='wristDescription'>In case you didn't receive a floor wri
 var desc4 = "<h3 class='wristDescription'>Click <a href='festival.html' class='wristClick2'>here</a> for more details.</h3>";
 var button = "<div class='center'><a href='http://bruinbash.ucla.edu/lotto.html' target='_blank' class='wristClick'>CLICK HERE</a></div>";
 var hr = "<hr class='break'>";
-var headliner = "<div class='headliner'></div>";
-var headlinerInfo = "<img src='assets/headliner-silhouette.png' class='headlinerPic'><hr class='break'><h3 class='shrug'>¯\\_(ツ)_/¯</h3><hr class='break'><h3 class='headliner-description'>We didn't think you would be able to handle the entire lineup at once, so we decided to take it easy on you. Come back tomorrow, we'll have something special for you.</h3>";
-var matoma = "<div class='matoma'></div>";
-var matomaInfo = "<img src='assets/matoma.jpg' class='matomaPic'><hr class='break'><h3 class='matomaTitle'>Matoma</h3><hr class='break'><h3 class='matomaSub'>A modern staple to festival lineups.</h3><h5 class='matomaDescription'>Norway's Tom Stræte Lagergren (aka Matoma) is a DJ and producer known for his dance-oriented, tropical house music. By 2014, he had started to gain international recognition for his Matoma remixes, including cuts for Jessie J, Akon, Enrique Iglesias, and others.</h5>";
-var fourohfour = "<div class='fourohfour'></div>";
-var fourohfourInfo = "<img src='assets/fourohfour.png' class='fourohfourPic'><hr class='break'><h3 class='fourohfourTitle'>404 Artist Not Found</h3><hr class='break'><h3 class='fourohfourSub'>The artist you are looking for cannot be found.</h3><h5 class='fourohfourDescription'>Please check back in a day or two.</h5>";
+var headliner = "<div class='headliner' id='ty'></div>";
+var headlinerInfo = "<img src='assets/ty.png' class='headlinerPic'><hr class='break'><h3 class='matomaTitle'>Ty Dolla $ign</h3><hr class='break'><h3 class='matomaSub'>TyDolla$ign was born into music.</h3><h5 class='headliner-description'>The ability to produce music in various genres while retaining a signature sound is what TyDolla$ign prides himself on. <br> With major labels calling, millions of online views, and co-signs from Snoop Dogg and Will.I.Am., the movement is on the rise. TyDolla$ign continues to tour all over the country to promote his mixtapes and additional projects. As TyDolla$ign continues to find commercial success producing, he's amassing a huge following as an artist.</h5>";
+var matoma = "<div class='headliner' id='matoma'></div>";
+var matomaInfo = "<img src='assets/matoma.png' class='headlinerPic'><hr class='break'><h3 class='matomaTitle'>Matoma</h3><hr class='break'><h3 class='matomaSub'>A modern staple to festival lineups.</h3><h5 class='matomaDescription'>Norway's Tom Stræte Lagergren (aka Matoma) is a DJ and producer known for his dance-oriented, tropical house music. By 2014, he had started to gain international recognition for his Matoma remixes, including cuts for Jessie J, Akon, Enrique Iglesias, and others.</h5>";
+var fourohfour = "<div class='headliner' id='sb'></div>";
+var fourohfourInfo = "<img src='assets/sbs.png' class='headlinerPic'><hr class='break'><h3 class='fourohfourTitle'>404 Artist Not Found</h3><hr class='break'><h3 class='fourohfourSub'>The artist you are looking for cannot be found.</h3><h5 class='fourohfourDescription'>Please check back in a day or two.</h5>";
 $(function() {
 
 
@@ -48,17 +48,17 @@ $(function() {
 		$('.info').empty();
 
 		$('.info').append(headliner);
-		$('.headliner').append(headlinerInfo);
+		$('#ty').append(headlinerInfo);
 
 		$('.info').append(matoma);
-		$('.matoma').append(matomaInfo);
+		$('#matoma').append(matomaInfo);
 
 		$('.info').append(fourohfour);
-		$('.fourohfour').append(fourohfourInfo);
+		$('#sb').append(fourohfourInfo);
 	});
 
-	$('body').on('click', '.headliner', function() {
-		var win = window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+	$('body').on('click', '#ty', function() {
+		var win = window.open('https://www.youtube.com/watch?v=TUj0otkJEBo', '_blank');
 		if (win) {
     	//Browser has allowed it to be opened
     	win.focus();
@@ -69,7 +69,7 @@ $(function() {
 		}
 	});
 
-	$('body').on('click', '.matoma', function() {
+	$('body').on('click', '#matoma', function() {
 		var win = window.open('https://soundcloud.com/matoma-official', '_blank');
 		if (win) {
     	//Browser has allowed it to be opened
@@ -81,7 +81,7 @@ $(function() {
 		}
 	});
 
-	$('body').on('click', '.fourohfour', function() {
+	$('body').on('click', '#sb', function() {
 		var win = window.open('https://www.youtube.com/watch?v=Sagg08DrO5U', '_blank');
 		if (win) {
     	//Browser has allowed it to be opened
