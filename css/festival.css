@@ -317,13 +317,19 @@ div.give{
 }
 
 @media only screen and (max-width: 500px)  and (min-width: 351px) {
+    .royce_image{
+        top: -1.9em;
+    }
+    #box1{
+        height: 12%;
+    }
     #box3{
         height: 4%;
         color: #263c97;
         font-size: 5px;
     }
     #box2{
-        height: 40%;
+        height: 35%;
     }
     #box2text{
         font-size: 8px;
@@ -391,13 +397,16 @@ div.give{
 }
 
 @media only screen and (max-width: 350px) {
+    #box1{
+        height: 10%;
+    }
     #box3{
         height: 4%;
         color: #263c97;
         font-size: 4px;
     }
     #box2{
-        height: 35%;
+        height: 30%;
     }
     #box2text{
         font-size: 7px;
