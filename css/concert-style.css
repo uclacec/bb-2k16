@@ -37,7 +37,7 @@ body {
 }
 
 .info {
-	height: 55em;
+	height: 80em;
 	margin-bottom: 3em;
 }
 
@@ -246,10 +246,11 @@ body {
 	margin: 0 auto;
 	position: relative;
 	top: 2em;
-	width: 59em;
+	width: 60em;
 	height: 23em;
 	border: 0.2em solid #263c97;
 	background-color: white;
+	margin-bottom: 2em;
 }
 
 .shrug {
@@ -270,6 +271,7 @@ body {
 
 .headlinerPic {
 	cursor: pointer;
+	width: 59.7em;
 }
 
 .matoma {
@@ -305,7 +307,7 @@ body {
 
 .matomaDescription {
 	position: relative;
-	top: 2.75em;
+	top: 2em;
 	left: .4em;
 }
 
