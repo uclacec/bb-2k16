@@ -318,12 +318,22 @@ div.give{
 }
 
 @media only screen and (max-width: 500px)  and (min-width: 351px) {
+    nav{
+        height:10vh !important;
+        width:100% !important;
+    }
 
     nav .dropdown-menu {
         right: 5px !important;
         left: 0 !important;
-        top: 8%;
+        top: 8% !important;
         width: 100% !important;
+    }
+
+    .bar{
+        margin:5px 10px 5px 10px !important;
+        width:20px !important;
+        height:2px !important;
     }
 
     .royce_image{
@@ -406,10 +416,15 @@ div.give{
 }
 
 @media only screen and (max-width: 350px) {
+    nav{
+        height:10vh !important;
+        width:100% !important;
+    }
+
     nav .dropdown-menu {
         right: 5px !important;
         left: 0 !important;
-        top: 8%;
+        top: 8% !important;
         width: 100% !important;
     }
 
