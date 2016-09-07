@@ -48,8 +48,8 @@ a, a:hover{text-decoration:none;}
 .title{
     padding-top:15%;
     padding-bottom:20%;
-    font-size:3em;
-    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
+    font-size:4em;
+    font-family: 'BeonMedium', 'Helvetica Neue', sans-serif;
 }
 .subtitle{
     text-decoration:none;
@@ -57,6 +57,7 @@ a, a:hover{text-decoration:none;}
     font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
     padding-top:20px;
 }
+#left .title{font-size:2.5em;}
 .row{margin:0;}
 a #festival .subtitle:hover{ text-decoration:none !important; }
 #concert{background-color:#fed225;}
