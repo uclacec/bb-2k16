@@ -13,7 +13,15 @@ $(document).ready(function(){
 	if(lights == false){
 		lights = true;
 		$("#logo").attr('src','assets/Home%20Page%20New%20Nighttime%20Animation.gif');
-		$('#left').css({ "background-color" : "#090344", "cursor":'url(../assets/fire_emoji.gif), pointer !important;'});
+        $("#cec-site").attr('src','assets/socialmedia/Website%20Transparent%20White.png');
+        $("#cec-facebook").attr('src','assets/socialmedia/Facebook%20Transparent%20White%20(1).png');
+        $("#cec-instagram").attr('src','assets/socialmedia/Instagram%20Transparent%20White%20(1).png');
+        $("#cec-twitter").attr('src','assets/socialmedia/Twitter%20Transparent%20White%20(1).png');
+        $("#cac-site").attr('src','assets/socialmedia/CAC%20Transparent%20White%20(1).png');
+        $("#cac-facebook").attr('src','assets/socialmedia/Facebook%20Transparent%20White%20(1).png');
+        $("#cac-instagram").attr('src','assets/socialmedia/Instagram%20Transparent%20White%20(1).png');
+        $("#cac-twitter").attr('src','assets/socialmedia/Twitter%20Transparent%20White%20(1).png');
+        $('#left').css({ "background-color" : "#090344", "cursor":'url(../assets/fire_emoji.gif), pointer !important;'});
 		$('#concert').css({ "background-color" : "#140d01"});
 		$('#film').css({ "background-color" : "#170116"});
 		$('#festival').css({ "background-color" : "#011000"});
@@ -31,7 +39,15 @@ $(document).ready(function(){
 	}
 	else if (lights == true) {
 		lights = false;
-		$('#logo').attr('src','assets/Home%20Page%20New%20Blue%20Daytime%20Animation.gif');
+        $('#logo').attr('src','assets/Home%20Page%20New%20Blue%20Daytime%20Animation.gif');
+        $("#cec-site").attr('src','assets/socialmedia/cecb.png');
+        $("#cec-facebook").attr('src','assets/socialmedia/facebook.png');
+        $("#cec-instagram").attr('src','assets/socialmedia/Instagram.png');
+        $("#cec-twitter").attr('src','assets/socialmedia/twitter.png');
+        $("#cac-site").attr('src','assets/socialmedia/cac.png');
+        $("#cac-facebook").attr('src','assets/socialmedia/facebook.png');
+        $("#cac-instagram").attr('src','assets/socialmedia/Instagram.png');
+        $("#cac-twitter").attr('src','assets/socialmedia/twitter.png');
 		$('#left').css({ "background-color" : "#40bfff"});
 		$('#concert').css({ "background-color" : "#fed225"});
 		$('#film').css({ "background-color" : "lightcoral"});
