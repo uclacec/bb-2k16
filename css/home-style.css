@@ -9,7 +9,7 @@ a, a:hover{text-decoration:none;}
     cursor:pointer;
 }
 #left .title{ padding:0 !important; text-align:center; }
-#left .subtitle{text-align:center;font-family: 'dinregular', Helvetica,sans-serif;}
+#left .subtitle{text-align:center;font-font-family: 'DINRegular', 'Helvetica Neue', sans-serif;}
 
 #right{
     display:inline-block;
@@ -48,13 +48,13 @@ a, a:hover{text-decoration:none;}
 .title{
     padding-top:15%;
     padding-bottom:20%;
-    font-size:4em;
-    font-family:'dinregular', Helvetica, sans-serif;
+    font-size:3em;
+    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
 }
 .subtitle{
     text-decoration:none;
     font-size:1em;
-    font-family:'dinregular', Helvetica, sans-serif;
+    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
     padding-top:20px;
 }
 .row{margin:0;}

@@ -1,16 +1,9 @@
-@font-face {
-    font-family:'din';
-    src:url("../fonts/din-regular.ttf");
-}
-
-@font-face {
-    font-family:'beon';
-    src:url("../fonts/beon-webfont.ttf");
-}
+@import '../fonts/stylesheet.css';
 
 html, body{
     background-color: orange;
     height: 100%;
+    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
 }
 
 div.container{
@@ -109,7 +102,7 @@ div.container{
 }
 
 .text{
-    font-family: 'din', fallback, sans-serif;
+    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
 }
 
 .textcenter{

@@ -1,21 +1,10 @@
 html, body { height: 100%; width: 100%; margin: 0; }
 
-@font-face {
-    font-family:'din';
-    src:url(../fonts/din-regular.ttf) format('truetype'),
-    url(../fonts/din-regular-webfont.woff2) format('woff2'),
-    url(../fonts/din-regular-webfont.woff) format('woff');
-    font-weight: normal;
-}
-
-@font-face {
-    font-family:'beon';
-    src:url("../fonts/beon-webfont.ttf");
-}
+@import '../fonts/stylesheet.css';
 
 body {
 	background-color: #FFD000;
-	font-family: 'din', Helvetica, sans-serif;
+	font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
 	color: #263c97;
 }
 
