@@ -1,9 +1,16 @@
-@import '../fonts/stylesheet.css';
+@font-face {
+    font-family:'din';
+    src:url("../fonts/din-regular.ttf");
+}
+
+@font-face {
+    font-family:'beon';
+    src:url("../fonts/beon-webfont.ttf");
+}
 
 html, body{
     background-color: orange;
     height: 100%;
-    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
 }
 
 div.container{
@@ -21,45 +28,44 @@ div.container{
 }
 
 #box1{
-    margin-top: 3%;
-    height: 18%;
+    margin-top: 5%;
+    height: 11%;
 }
 #box2{
-    height: 60%;
+    height: 28%;
 }
 #box3{
-    height: 5%;
+    height: 4%;
     color: #263c97;
     font-size: 12px;
 
 }
 #box4{
-    height: 90%;
+    height: 63%;
     margin-bottom: 1%;
 }
 
 .royce_image{
     height: 125%;
-    width: 36%;
-    bottom: 0;
-    display: block;
-    margin: auto;
-    position: relative;
-    top: -1.75em;
+    width: 30%;
+    margin-top: -1.6%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 0;
 }
 
 .festival_img{
-    width: 36%;
-    height: 30%;
-    margin-top: 1%;
-    margin-left: 32%;
-    margin-right: 32%;
-    margin-bottom: 2%;
+    width: 33.33%;
+    height: 35%;
+    margin-top: 0;
+    margin-left: 33.33%;
+    margin-right: 33.33%;
+    margin-bottom: 1%;
 
 }
 
 #festival_label{
-    height: 8%;
+    height: 13%;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -68,8 +74,6 @@ div.container{
 }
 
 #bash{
-    margin-left: 30%;
-    width: 20%;
     height: 100%;
     background-color: #263c97;
     color: white;
@@ -79,7 +83,6 @@ div.container{
     border-style: solid;
 }
 #festival{
-    width: 20%;
     height: 100%;
     color: #263c97;
     border-top-color: transparent !important;
@@ -92,17 +95,12 @@ div.container{
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 18px;
-    color: #263c97;
+    color: black;
 }
 
-.noPadding{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
 
 .text{
-    font-family: 'DINRegular', 'Helvetica Neue', sans-serif;
+    font-family: 'din', fallback, sans-serif;
 }
 
 .textcenter{
@@ -146,13 +144,13 @@ div.festival{
     border-color: transparent;
     border-bottom-color: #263c97 !important;
     border-style: solid;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 1%;
     padding-left: 1%;
     margin-bottom: 1%;
 }
 .fest_body{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .lineup_head{
@@ -160,13 +158,13 @@ div.festival{
     border-color: transparent;
     border-bottom-color: #263c97 !important;
     border-style: solid;
-    font-size: 14px;
+    font-size: 13px;
     padding-top: .25%;
     padding-left: 1%;
     margin-bottom: .5%;
 }
 .lineup_body{
-    font-size: 13px;
+    font-size: 12px;
 }
 
 div.lineup{
@@ -234,15 +232,14 @@ div.give{
     height: 55% !important;
 }
 
-
 @media only screen and (max-width: 1100px) and (min-width: 801px) {
     #box3{
         height: 4%;
         color: #263c97;
         font-size: 10px;
     }
-    #box2text{
-        font-size: 14px;
+    #box2{
+        font-size: 12px;
     }
     #festival_label{
         font-size: 10px;
@@ -259,6 +256,15 @@ div.give{
     span.default{
         font-size: 28px !important;
     }
+    .box3_festival{
+        padding-left: 5px;
+    }
+    .box3_giveaway{
+        padding-left: 5px;
+    }
+    .royce_image{
+        margin-top: -2.1%;
+    }
     .give_body{
         font-size: 13px !important;
     }
@@ -271,9 +277,6 @@ div.give{
         font-size: 8px;
     }
     #box2{
-        height: 50%;
-    }
-    #box2text{
         font-size: 10px;
     }
     #festival_label{
@@ -301,6 +304,17 @@ div.give{
     .box3_giveaway{
         padding-left: 2px;
     }
+    #bash{
+        padding-right: 0;
+        padding-top: .5%;
+    }
+    #festival{
+        padding-right: 0;
+        padding-top: .5%;
+    }
+    .royce_image{
+        margin-top: -2.6%;
+    }
     img.playful{
         width: 100px !important;
         height: 30px !important;
@@ -317,40 +331,13 @@ div.give{
     }
 }
 
-@media only screen and (max-width: 500px)  and (min-width: 351px) {
-    nav{
-        height:10vh !important;
-        width:100% !important;
-    }
-
-    nav .dropdown-menu {
-        right: 5px !important;
-        left: 0 !important;
-        top: 8% !important;
-        width: 100% !important;
-    }
-
-    .bar{
-        margin:5px 10px 5px 10px !important;
-        width:20px !important;
-        height:2px !important;
-    }
-
-    .royce_image{
-        top: -1.9em;
-    }
-    #box1{
-        height: 12%;
-    }
+@media only screen and (max-width: 500px) {
     #box3{
         height: 4%;
         color: #263c97;
         font-size: 5px;
     }
     #box2{
-        height: 35%;
-    }
-    #box2text{
         font-size: 8px;
     }
     #festival_label{
@@ -378,6 +365,12 @@ div.give{
     span.default{
         font-size: 18px !important;
     }
+    .box3_festival{
+        padding-left: 1px;
+    }
+    .box3_giveaway{
+        padding-left: 1px;
+    }
     #bash{
         padding-right: 0;
         padding-top: 1%;
@@ -385,6 +378,9 @@ div.give{
     #festival{
         padding-right: 0;
         padding-top: 1%;
+    }
+    .royce_image{
+        margin-top: -4%;
     }
     .box3{
         padding-top: 1.2%;
@@ -405,112 +401,6 @@ div.give{
     }
     .give_body{
         font-size: 6px !important;
-    }
-    .small{
-        height: 40% !important;
-    }
-    #box4{
-        height: 60%;
-        margin-bottom: 1%;
-    }
-}
-
-@media only screen and (max-width: 350px) {
-    nav{
-        height:10vh !important;
-        width:100% !important;
-    }
-
-    nav .dropdown-menu {
-        right: 5px !important;
-        left: 0 !important;
-        top: 8% !important;
-        width: 100% !important;
-    }
-
-    .bar{
-        margin:5px 10px 5px 10px !important;
-        width:20px !important;
-        height:2px !important;
-    }
-
-    .royce_image{
-        top: -1.5em;
-        width: 42%;
-    }
-    .festival_img{
-        width: 42%;
-    }
-    #box1{
-        height: 8%;
-    }
-    #box3{
-        height: 4%;
-        color: #263c97;
-        font-size: 4px;
-    }
-    #box2{
-        height: 28%;
-    }
-    #box2text{
-        font-size: 7px;
-    }
-    #festival_label{
-        font-size: 4px;
-    }
-    .default_giveaway {
-        font-size: 10px;
-    }
-    .fest_head{
-        font-size: 13px;
-    }
-    .fest_body{
-        padding-left: 3px;
-        padding-right: 3px;
-        font-size: 5px;
-    }
-    .lineup_head{
-        font-size: 9px;
-    }
-    .lineup_body{
-        padding-left: 3px;
-        padding-right: 3px;
-        font-size: 5px;
-    }
-    span.default{
-        font-size: 14px !important;
-    }
-    .box3_festival{
-        padding-left: 0;
-    }
-    .box3_giveaway{
-        padding-left: 0;
-    }
-    #bash{
-        padding-top: 1%;
-    }
-    #festival{
-        padding-top: 1%;
-    }
-    .box3{
-        padding-top: 1.2%;
-    }
-    span.box3{
-        font-size: 6px !important;
-    }
-    img.playful{
-        width: 60px !important;
-        height: 20px !important;
-    }
-    p.playful{
-        height: 20px !important;
-        font-size: 10px !important;
-    }
-    .give_head{
-        font-size: 14px !important;
-    }
-    .give_body{
-        font-size: 5px !important;
     }
     .small{
         height: 40% !important;
