@@ -231,7 +231,7 @@ div.give{
 }
 
 .small{
-    height: 55% !important;
+    height: 70% !important;
 }
 
 
@@ -318,7 +318,6 @@ div.give{
 }
 
 @media only screen and (max-width: 500px)  and (min-width: 351px) {
-
     nav .dropdown-menu {
         right: 5px !important;
         left: 0 !important;
@@ -408,7 +407,7 @@ div.give{
         font-size: 6px !important;
     }
     .small{
-        height: 40% !important;
+        height: 42% !important;
     }
     #box4{
         height: 60%;
@@ -515,7 +514,7 @@ div.give{
         font-size: 5px !important;
     }
     .small{
-        height: 40% !important;
+        height: 42% !important;
     }
     #box4{
         height: 60%;
