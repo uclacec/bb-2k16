@@ -37,7 +37,7 @@ a, a:hover{text-decoration:none;}
 .tile{  text-decoration:none;  color:black; }
 .tile:hover{color:darkblue;}
 #concert, #film, #festival, #faq{
-    height: 80vh;
+    height: 75vh;
     width:100%;
     text-align:center;
     text-decoration:none;
