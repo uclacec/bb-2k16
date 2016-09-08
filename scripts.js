@@ -36,6 +36,9 @@ $(document).ready(function(){
 		//take out all of the words
 		$('#right').find(".title").css({'display':'none'});
 		$('.glow').css({'display':'block'});
+
+		//replace icon images
+		$('.cool-icon').css({display:'none'});
 	}
 	else if (lights == true) {
 		lights = false;
@@ -59,6 +62,7 @@ $(document).ready(function(){
 		//put in all the words
 		$('.title').css({'display':'block'});
 		$('.glow').css({'display':'none'});
+		$('.cool-icon').css({'display':'block'});
 		}
 	});
 });
