@@ -45,7 +45,7 @@ div.container{
     display: block;
     margin: auto;
     position: relative;
-    top: -1.75em;
+    top: -21%;
 }
 
 .festival_img{
@@ -394,9 +394,6 @@ div.give{
         height: 25px;
     }
 
-    .royce_image{
-        top: -1.9em;
-    }
     #box1{
         height: 12%;
     }
@@ -494,7 +491,6 @@ div.give{
     }
 
     .royce_image{
-        top: -1.5em;
         width: 42%;
     }
     .festival_img{
