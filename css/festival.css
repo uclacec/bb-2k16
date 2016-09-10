@@ -34,7 +34,7 @@ div.container{
 
 }
 #box4{
-    height: 110%;
+    height: 115%;
     margin-bottom: 1%;
 }
 
@@ -120,7 +120,7 @@ div.festival{
     border-style: solid;
     background-color: white;
     color: #263c97;
-    height: 46%;
+    height: 48%;
 }
 
 .default_giveaway{
@@ -231,7 +231,7 @@ div.give{
 }
 
 .small{
-    height: 70% !important;
+    height: 90% !important;
 }
 
 #hubert{
@@ -318,7 +318,7 @@ div.give{
         font-size: 28px !important;
     }
     .give_body{
-        font-size: 13px !important;
+        font-size: 12px !important;
     }
 }
 
@@ -465,7 +465,7 @@ div.give{
         font-size: 6px !important;
     }
     .small{
-        height: 48% !important;
+        height: 60% !important;
     }
     #box4{
         height: 70%;
@@ -572,7 +572,7 @@ div.give{
         font-size: 5px !important;
     }
     .small{
-        height: 50% !important;
+        height: 55% !important;
     }
     #box4{
         height: 68%;
