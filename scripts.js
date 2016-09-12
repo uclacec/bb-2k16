@@ -32,6 +32,7 @@ $(document).ready(function(){
 		$('#film').find('.subtitle').css({'color':'rgb(159, 53, 152)'});
 		$('#festival').find('.subtitle').css({'color':'rgb(62, 168, 67)'});
 		$('#faq').find('.subtitle').css({'color':'rgb(114, 70, 163)'});
+		$('#eaf').css({ "background-color" : 'rgb(3, 15, 4)'});
 
 		//take out all of the words
 		$('#right').find(".title").css({'display':'none'});
@@ -56,8 +57,10 @@ $(document).ready(function(){
 		$('#film').css({ "background-color" : "lightcoral"});
 		$('#festival').css({ "background-color" : "#2ecc71"});
 		$('#faq').css({ "background-color" : "#9b59b6"});
+		$('#eaf').css({ "background-color" : "#7FFFD4" });
 		$('.subtitle').css({"color" : "darkblue"});
 		$('#left').find('.title').css({'color':'darkblue'});
+
 			//change everything back
 		//put in all the words
 		$('.title').css({'display':'block'});
