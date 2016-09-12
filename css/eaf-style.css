@@ -1,0 +1,184 @@
+html, body { height: 100%; width: 100%; margin: 0; font-family: "din"}
+
+body {
+    background-color: #7FFFD4;
+}
+
+/*Reusable css classes*/
+.frame {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.full-border {
+    border: 0.2em solid #263c97;
+}
+
+.min-border {
+    border-left: 0.2em solid #263c97;
+    border-right: 0.2em solid #263c97;
+    border-bottom: 0.2em solid #263c97;
+}
+
+/*css for individual elements*/
+.header {
+    height: 9em;
+    margin-top: 3em;
+}
+
+.title {
+    height: 30em;
+}
+
+.subtitle{
+    height: 3em;
+    background-color: white;
+    width: 85%;
+    margin-left: 7.5%;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.nav {
+    height: 6em;
+}
+
+.info {
+    margin-bottom: 3em;
+    color:#263c97;
+}
+
+.title-box {
+    padding-top: 0.75em;
+    font-size: 1.5em;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.invert {
+    margin-left: 25%;
+    background-color: #263c97;
+    color: white;
+    border-left: .2em solid #263c97;
+    border-bottom: 0.2em solid #263c97;
+}
+
+.regular {
+    color: #263c97;
+    border-right: 0.2em solid #263c97;
+    border-bottom: 0.2em solid #263c97;
+}
+
+.eaftitle{
+    padding-top:10%;
+    padding-bottom:2%;
+    font-size:4em;
+    text-align: center;
+    font-family: 'BeonMedium', 'Helvetica Neue', sans-serif;
+}
+
+.title-summary {
+    margin: auto;
+    width: 75%;
+    height: 9em;
+    top: 2em;
+    text-align: center;
+    color: #263c97;
+    position: relative;
+}
+
+.underline {
+    cursor:pointer;
+    border-bottom: 0.2em solid #263c97;
+}
+
+.details{
+    position: relative;
+    width: 85%;
+    margin-left: 7.5%;
+    padding-left: 1em;
+    font-size: 15px;
+    padding-top: 15px;
+    background-color: white;
+}
+
+#logo{
+    margin-top: 3vh;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#chobani{
+    padding-top: 4em;
+    padding-right: 2em;
+}
+
+#cse{
+    padding-top: 1em;
+}
+
+#coke{
+    margin-bottom: 2em;
+    padding-left: 2em;
+}
+
+#powerade{
+    padding-top: 2em;
+}
+
+#tea{
+    padding-top: 2em;
+}
+
+#futurizex{
+    padding-right: 2em;
+}
+
+#papajohns{
+    padding-right: 2em;
+}
+
+#wellsfargo{
+    padding-bottom: 2em;
+}
+
+#sponsors{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+#orgs{
+    padding-top: 3em;
+    overflow-y: scroll;
+    height: 400px;    
+}
+
+#royce {
+    display: block;
+    margin: auto;
+    width: 25em;
+    position: relative;
+    top: -1.75em;
+    cursor:pointer;
+}
+
+#nav-title {
+    color: #263c97;
+    position: relative;
+    top: 1.5em;
+    left: 1em;
+    width: 12em;
+    font-size: 1.25em
+}
+
+#image{
+    padding-top: 0px !important;
+}
+
+@media only screen and (max-width: 680px) {
+    .title-box{
+        font-size: 0.75em;
+    }
+}

@@ -36,7 +36,7 @@ a, a:hover{text-decoration:none;}
 
 .tile{  text-decoration:none;  color:black; }
 .tile:hover{color:darkblue;}
-#concert, #film, #festival, #faq{
+#concert, #film, #festival, #faq, #eaf{
     height: 75vh;
     width:100%;
     text-align:center;
@@ -64,6 +64,8 @@ a #festival .subtitle:hover{ text-decoration:none !important; }
 #film{background-color:lightcoral;}
 #festival{background-color:#ffb444;}
 #faq{background-color:#9b59b6;}
+#eaf{background-color:#7FFFD4;}
+
 
 /*Social Media*/
 #cec, #cac{ position:absolute; z-index:30; }
