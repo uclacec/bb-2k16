@@ -68,6 +68,7 @@ body {
 }
 
 .regular {
+    padding-top: 0;
     color: #263c97;
     border-right: 0.2em solid #263c97;
     border-bottom: 0.2em solid #263c97;
@@ -104,6 +105,12 @@ body {
     font-size: 15px;
     padding-top: 15px;
     background-color: white;
+}
+
+#title-box-dt {
+    position: relative;
+    top: .3em;
+    font-size: .8em;
 }
 
 #logo{
