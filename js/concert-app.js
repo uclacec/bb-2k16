@@ -107,7 +107,7 @@ $(function() {
 	});
 
 	$('body').on('click', '#sb', function() {
-		var win = window.open('https://www.youtube.com/watch?v=Sagg08DrO5U', '_blank');
+		var win = window.open('https://soundcloud.com/sweaters', '_blank');
 		if (win) {
     	//Browser has allowed it to be opened
     	win.focus();
